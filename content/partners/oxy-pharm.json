@@ -1,0 +1,15 @@
+{
+  "slug": "oxy-pharm",
+  "name": "OXY'PHARM",
+  "foundedYear": 2003,
+  "summary": {
+    "en": "Established in 2003, OXY'PHARM develops biodegradable, eco-friendly products for automated surface disinfection and disinsectisation, supporting nosocomial infection control protocols.",
+    "ar": "تأسست OXY'PHARM عام 2003، وتطور منتجات قابلة للتحلل وصديقة للبيئة لتعقيم الأسطح الآلي ومكافحة الحشرات، لدعم بروتوكولات مكافحة العدوى المكتسبة داخل المستشفيات."
+  },
+  "technologyExpertise": {
+    "en": "OXY'PHARM's product range centers on automated, biodegradable disinfection technology designed to reduce the environmental footprint of routine infection-control protocols without compromising efficacy.",
+    "ar": "تتمحور مجموعة منتجات OXY'PHARM حول تقنيات تعقيم آلية وقابلة للتحلل، مصممة لتقليل الأثر البيئي لبروتوكولات مكافحة العدوى الروتينية دون المساس بالفعالية."
+  },
+  "clinicalAreas": ["infection-control"],
+  "featuredProductSlugs": []
+}

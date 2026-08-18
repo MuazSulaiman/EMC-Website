@@ -1,0 +1,66 @@
+{
+  "headline": { "en": "Terms of Use", "ar": "شروط الاستخدام" },
+  "lastUpdated": "2026-08-07",
+  "intro": {
+    "en": "These terms govern your use of this website, operated by Excellence Medical Care Ltd. (EMC). By using this site, you agree to them. This is a generic draft pending EMC's legal review — see the note at the end of this page.",
+    "ar": "تحكم هذه الشروط استخدامكم لهذا الموقع، الذي تديره شركة إكسلنس ميديكال كير المحدودة (EMC). باستخدامكم لهذا الموقع، فإنكم توافقون عليها. هذه مسودة عامة قيد المراجعة القانونية من قبل إكسلنس ميديكال كير — انظر الملاحظة في نهاية هذه الصفحة."
+  },
+  "sections": [
+    {
+      "title": { "en": "Use of This Website", "ar": "استخدام هذا الموقع" },
+      "body": {
+        "en": "This website is provided for informational purposes about EMC, its partners, and the medical technologies it represents. It is not an e-commerce platform — no products are sold, priced, or ordered through this site.",
+        "ar": "يُقدَّم هذا الموقع لأغراض تعريفية بشركة إكسلنس ميديكال كير وشركائها والتقنيات الطبية التي تمثلها. وهو ليس منصة تجارة إلكترونية — لا يتم بيع أي منتجات أو تسعيرها أو طلبها عبر هذا الموقع."
+      }
+    },
+    {
+      "title": { "en": "No Medical Advice", "ar": "لا تُقدَّم استشارة طبية" },
+      "body": {
+        "en": "Content on this site describes products and services at a general level and does not replace a product's official Instructions for Use, a manufacturer's technical documentation, or the clinical judgment of a qualified healthcare professional.",
+        "ar": "يصف محتوى هذا الموقع المنتجات والخدمات بشكل عام، ولا يُغني عن تعليمات الاستخدام الرسمية للمنتج، أو الوثائق الفنية الصادرة عن الشركة المصنعة، أو الحكم السريري لأخصائي رعاية صحية مؤهل."
+      }
+    },
+    {
+      "title": { "en": "Intellectual Property", "ar": "الملكية الفكرية" },
+      "body": {
+        "en": "The EMC name, logo, and original content on this site belong to EMC. Manufacturer and partner names, logos, and product content belong to their respective owners and are used to describe EMC's partnerships and portfolio.",
+        "ar": "يعود اسم إكسلنس ميديكال كير وشعارها والمحتوى الأصلي في هذا الموقع لإكسلنس ميديكال كير. أما أسماء الشركات المصنعة والشركاء وشعاراتهم ومحتوى منتجاتهم فتعود لأصحابها، وتُستخدم لوصف شراكات إكسلنس ميديكال كير ومحفظتها."
+      }
+    },
+    {
+      "title": { "en": "Third-Party Links", "ar": "روابط الأطراف الثالثة" },
+      "body": {
+        "en": "This site may link to partner or third-party websites. EMC isn't responsible for the content or practices of sites it doesn't operate.",
+        "ar": "قد يتضمن هذا الموقع روابط لمواقع شركاء أو أطراف ثالثة. لا تتحمل إكسلنس ميديكال كير مسؤولية محتوى أو ممارسات المواقع التي لا تديرها."
+      }
+    },
+    {
+      "title": { "en": "Limitation of Liability", "ar": "حدود المسؤولية" },
+      "body": {
+        "en": "This website is provided on an \"as is\" basis. To the extent permitted by law, EMC is not liable for damages arising from your use of this site.",
+        "ar": "يُقدَّم هذا الموقع \"كما هو\". وإلى الحد الذي يسمح به القانون، لا تتحمل إكسلنس ميديكال كير مسؤولية أي أضرار ناتجة عن استخدامكم لهذا الموقع."
+      }
+    },
+    {
+      "title": { "en": "Governing Law", "ar": "القانون الحاكم" },
+      "body": {
+        "en": "These terms are governed by the laws of the Kingdom of Saudi Arabia.",
+        "ar": "تخضع هذه الشروط لأنظمة المملكة العربية السعودية."
+      }
+    },
+    {
+      "title": { "en": "Changes to These Terms", "ar": "التغييرات على هذه الشروط" },
+      "body": {
+        "en": "We may update these terms from time to time. The date at the top of this page shows when they were last revised.",
+        "ar": "قد نقوم بتحديث هذه الشروط من وقت لآخر. يوضح التاريخ أعلى هذه الصفحة موعد آخر مراجعة لها."
+      }
+    },
+    {
+      "title": { "en": "Contact Us", "ar": "تواصل معنا" },
+      "body": {
+        "en": "For any questions about these terms, contact us at info@tamiozmed.com.",
+        "ar": "لأي استفسارات حول هذه الشروط، تواصلوا معنا عبر info@tamiozmed.com."
+      }
+    }
+  ]
+}

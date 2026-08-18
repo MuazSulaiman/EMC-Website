@@ -1,0 +1,192 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ------------------------------------------------------------------ */
+/* EMC brand tokens — Section 6.1 of PROJECT_SPEC.md. Do not hardcode  */
+/* these hex values anywhere else; reference the CSS variables/Tailwind */
+/* utilities generated below instead.                                  */
+/* teal-700 exists solely so body/label text meets WCAG AA 4.5:1 on    */
+/* white AND on --emc-gray-50 (the zebra-striped section background   */
+/* used sitewide) — the raw teal-600 the brief names for text only     */
+/* measures 3.66:1 on white (Section 13 flagged it as "borderline";    */
+/* it fails). Use teal-700 for readable text, teal-600 for icons/large */
+/* text/UI components (only need 3:1, and are a deliberate accent).    */
+/* ------------------------------------------------------------------ */
+:root {
+  --emc-purple-900: #2a0c31;
+  --emc-purple-700: #36103e;
+  --emc-purple-500: #5a2568;
+  --emc-teal-700: #277d76;
+  --emc-teal-600: #2e948c;
+  --emc-teal-400: #4fbdb3;
+  --emc-teal-100: #e6f5f3;
+  --emc-navy-900: #0b1b2b;
+  --emc-white: #ffffff;
+  --emc-gray-50: #f7f8fa;
+  --emc-gray-200: #e3e6ea;
+  --emc-gray-600: #5b6470;
+  --emc-gray-900: #14181d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --font-heading: var(--font-heading);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Raw EMC palette exposed as utilities: bg-emc-purple-700, text-emc-teal-600, etc. */
+  --color-emc-purple-900: var(--emc-purple-900);
+  --color-emc-purple-700: var(--emc-purple-700);
+  --color-emc-purple-500: var(--emc-purple-500);
+  --color-emc-teal-700: var(--emc-teal-700);
+  --color-emc-teal-600: var(--emc-teal-600);
+  --color-emc-teal-400: var(--emc-teal-400);
+  --color-emc-teal-100: var(--emc-teal-100);
+  --color-emc-navy-900: var(--emc-navy-900);
+  --color-emc-gray-50: var(--emc-gray-50);
+  --color-emc-gray-200: var(--emc-gray-200);
+  --color-emc-gray-600: var(--emc-gray-600);
+  --color-emc-gray-900: var(--emc-gray-900);
+}
+
+:root {
+  /* Font stacks — overridden per-direction below (Section 6.2). */
+  --font-heading: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Surfaces are white/soft-gray dominant; purple and teal are accents only (Section 6.1 usage rule). */
+  --background: var(--emc-white);
+  --foreground: var(--emc-gray-900);
+  --card: var(--emc-white);
+  --card-foreground: var(--emc-gray-900);
+  --popover: var(--emc-white);
+  --popover-foreground: var(--emc-gray-900);
+  --primary: var(--emc-purple-700);
+  --primary-foreground: var(--emc-white);
+  --secondary: var(--emc-teal-100);
+  --secondary-foreground: var(--emc-purple-900);
+  --muted: var(--emc-gray-50);
+  --muted-foreground: var(--emc-gray-600);
+  --accent: var(--emc-teal-100);
+  --accent-foreground: var(--emc-purple-900);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: var(--emc-gray-200);
+  --input: var(--emc-gray-200);
+  /* teal-400 measures 2.27:1 on white — well under the 3:1 a focus ring
+     needs to stay visible (Section 13). teal-700 clears it at 4.9:1. */
+  --ring: var(--emc-teal-700);
+  --chart-1: var(--emc-purple-700);
+  --chart-2: var(--emc-teal-600);
+  --chart-3: var(--emc-purple-500);
+  --chart-4: var(--emc-teal-400);
+  --chart-5: var(--emc-gray-600);
+  --radius: 0.625rem;
+  --sidebar: var(--emc-white);
+  --sidebar-foreground: var(--emc-gray-900);
+  --sidebar-primary: var(--emc-purple-700);
+  --sidebar-primary-foreground: var(--emc-white);
+  --sidebar-accent: var(--emc-teal-100);
+  --sidebar-accent-foreground: var(--emc-purple-900);
+  --sidebar-border: var(--emc-gray-200);
+  --sidebar-ring: var(--emc-teal-700);
+}
+
+/* Midnight navy is the dark-mode / footer base — never purple (Section 6.1). */
+.dark {
+  --background: var(--emc-navy-900);
+  --foreground: var(--emc-white);
+  --card: #101f30;
+  --card-foreground: var(--emc-white);
+  --popover: #101f30;
+  --popover-foreground: var(--emc-white);
+  --primary: var(--emc-teal-400);
+  --primary-foreground: var(--emc-navy-900);
+  --secondary: #16283c;
+  --secondary-foreground: var(--emc-white);
+  --muted: #16283c;
+  --muted-foreground: #9fb0c0;
+  --accent: #16283c;
+  --accent-foreground: var(--emc-teal-400);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: rgb(255 255 255 / 12%);
+  --input: rgb(255 255 255 / 15%);
+  --ring: var(--emc-teal-400);
+  --chart-1: var(--emc-teal-400);
+  --chart-2: var(--emc-purple-500);
+  --chart-3: var(--emc-teal-600);
+  --chart-4: var(--emc-purple-700);
+  --chart-5: #9fb0c0;
+  --sidebar: var(--emc-navy-900);
+  --sidebar-foreground: var(--emc-white);
+  --sidebar-primary: var(--emc-teal-400);
+  --sidebar-primary-foreground: var(--emc-navy-900);
+  --sidebar-accent: #16283c;
+  --sidebar-accent-foreground: var(--emc-teal-400);
+  --sidebar-border: rgb(255 255 255 / 12%);
+  --sidebar-ring: var(--emc-teal-400);
+}
+
+/* Arabic locale: IBM Plex Sans Arabic for both headings and body (Section 6.2). */
+html[lang="ar"] {
+  --font-heading: var(--font-ibm-plex-arabic), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-ibm-plex-arabic), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* Numbers, model numbers, and technical specs stay LTR inside RTL text (Section 10). */
+.ltr-embed {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+}

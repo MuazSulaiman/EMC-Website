@@ -1,0 +1,38 @@
+{
+  "headline": { "en": "Cookie Policy", "ar": "سياسة ملفات الارتباط" },
+  "lastUpdated": "2026-08-07",
+  "intro": {
+    "en": "This page explains how this website uses cookies. This is a generic draft pending EMC's legal review — see the note at the end of this page.",
+    "ar": "توضح هذه الصفحة كيفية استخدام هذا الموقع لملفات الارتباط (الكوكيز). هذه مسودة عامة قيد المراجعة القانونية من قبل إكسلنس ميديكال كير — انظر الملاحظة في نهاية هذه الصفحة."
+  },
+  "sections": [
+    {
+      "title": { "en": "What Cookies This Site Uses", "ar": "ملفات الارتباط التي يستخدمها هذا الموقع" },
+      "body": {
+        "en": "This website currently sets one functional cookie, named NEXT_LOCALE, which remembers whether you're viewing the site in English or Arabic. It doesn't identify you personally and isn't used for tracking or advertising. We don't currently use analytics, marketing, or third-party advertising cookies.",
+        "ar": "يستخدم هذا الموقع حالياً ملف ارتباط وظيفياً واحداً باسم NEXT_LOCALE، يُستخدم لتذكر ما إذا كنتم تتصفحون الموقع باللغة الإنجليزية أو العربية. لا يحدد هذا الملف هويتكم الشخصية ولا يُستخدم لأغراض التتبع أو الإعلان. لا نستخدم حالياً ملفات ارتباط للتحليلات أو التسويق أو الإعلانات من أطراف ثالثة."
+      }
+    },
+    {
+      "title": { "en": "Managing Cookies", "ar": "إدارة ملفات الارتباط" },
+      "body": {
+        "en": "You can control or delete cookies through your browser settings. Blocking the language-preference cookie won't prevent you from using the site — it just means your language choice won't be remembered on your next visit.",
+        "ar": "يمكنكم التحكم في ملفات الارتباط أو حذفها من خلال إعدادات المتصفح. حظر ملف تفضيل اللغة لن يمنعكم من استخدام الموقع — بل يعني فقط أن اختياركم للغة لن يُحفظ في زيارتكم التالية."
+      }
+    },
+    {
+      "title": { "en": "If This Changes", "ar": "في حال حدوث تغيير" },
+      "body": {
+        "en": "If EMC adds analytics or marketing tools to this site in the future, this policy will be updated to reflect that before those cookies are set.",
+        "ar": "في حال أضافت إكسلنس ميديكال كير أدوات تحليلات أو تسويق إلى هذا الموقع مستقبلاً، سيتم تحديث هذه السياسة لتعكس ذلك قبل تفعيل تلك الملفات."
+      }
+    },
+    {
+      "title": { "en": "Contact Us", "ar": "تواصل معنا" },
+      "body": {
+        "en": "For any questions about this policy, contact us at info@tamiozmed.com.",
+        "ar": "لأي استفسارات حول هذه السياسة، تواصلوا معنا عبر info@tamiozmed.com."
+      }
+    }
+  ]
+}

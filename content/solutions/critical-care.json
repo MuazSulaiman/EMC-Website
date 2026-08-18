@@ -1,0 +1,16 @@
+{
+  "slug": "critical-care",
+  "name": { "en": "Critical Care", "ar": "الرعاية الحرجة" },
+  "shortDescription": {
+    "en": "Portfolio expanding — speak with our team about upcoming critical care technologies.",
+    "ar": "المحفظة قيد التوسع — تواصلوا مع فريقنا لمعرفة المزيد عن تقنيات الرعاية الحرجة القادمة."
+  },
+  "clinicalOverview": {
+    "en": "EMC is expanding its portfolio into critical care technology. We don't yet have EMC-supplied products to list in this category — rather than describe capabilities we can't substantiate, we're keeping this page honest until a partnership is confirmed. Speak with our team if critical care is a priority for your facility.",
+    "ar": "تعمل إكسلنس ميديكال كير على توسيع محفظتها لتشمل تقنيات الرعاية الحرجة. لا تتوفر لدينا حالياً منتجات مؤكدة من إكسلنس ميديكال كير لإدراجها ضمن هذه الفئة — وبدلاً من وصف إمكانيات لا يمكننا إثباتها، نفضل أن تبقى هذه الصفحة صادقة إلى حين تأكيد شراكة جديدة. تواصلوا مع فريقنا إذا كانت الرعاية الحرجة من أولويات منشأتكم."
+  },
+  "relatedProductSlugs": [],
+  "relatedPartnerSlugs": [],
+  "icon": "HeartPulse",
+  "status": "expanding"
+}

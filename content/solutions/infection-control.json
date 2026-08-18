@@ -1,0 +1,16 @@
+{
+  "slug": "infection-control",
+  "name": { "en": "Infection Control", "ar": "مكافحة العدوى" },
+  "shortDescription": {
+    "en": "Automated surface disinfection technology that supports eco-conscious infection prevention protocols.",
+    "ar": "تقنيات تعقيم الأسطح الآلية التي تدعم بروتوكولات الوقاية من العدوى الصديقة للبيئة."
+  },
+  "clinicalOverview": {
+    "en": "Nosocomial infection prevention depends on consistent, verifiable disinfection protocols. Through our partnership with OXY'PHARM (est. 2003), EMC brings biodegradable, eco-friendly products for automated surface disinfection and disinsectisation to Saudi and Gulf healthcare facilities, supporting infection-control teams working to reduce hospital-acquired infection risk.",
+    "ar": "تعتمد الوقاية من العدوى المكتسبة داخل المستشفيات على بروتوكولات تعقيم متسقة وقابلة للتحقق. من خلال شراكتنا مع OXY'PHARM (تأسست عام 2003)، تقدم إكسلنس ميديكال كير منتجات قابلة للتحلل وصديقة للبيئة لتعقيم الأسطح الآلي ومكافحة الحشرات لمرافق الرعاية الصحية في المملكة العربية السعودية ودول الخليج، لدعم فرق مكافحة العدوى العاملة على خفض مخاطر العدوى المكتسبة داخل المستشفى."
+  },
+  "relatedProductSlugs": [],
+  "relatedPartnerSlugs": ["oxy-pharm"],
+  "icon": "ShieldCheck",
+  "status": "active"
+}

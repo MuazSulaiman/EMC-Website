@@ -1,0 +1,16 @@
+{
+  "slug": "orthopedics",
+  "name": { "en": "Orthopedics", "ar": "جراحة العظام" },
+  "shortDescription": {
+    "en": "Orthopedic supports, casting materials, and orthotics for post-operative and long-term patient care.",
+    "ar": "دعامات العظام، ومواد الجبائر، والأجهزة التقويمية لرعاية المرضى بعد العمليات وعلى المدى الطويل."
+  },
+  "clinicalOverview": {
+    "en": "EMC represents two specialist manufacturers in this space: BeneCare Medical (UK, est. 2001), for casting materials, orthopedic footwear, and upper/lower limb orthotics built on low-temperature thermoplastics, and Ortholand, for orthopedic supports designed for everyday usability. Together they give Saudi and Gulf orthopedic and rehabilitation teams a range that spans acute casting through long-term bracing.",
+    "ar": "تمثل إكسلنس ميديكال كير شركتين متخصصتين في هذا المجال: BeneCare Medical (المملكة المتحدة، تأسست عام 2001)، لمواد الجبائر وأحذية تقويم العظام والأجهزة التقويمية للأطراف العلوية والسفلية المصنوعة من مواد لدائن حرارية منخفضة الحرارة، وOrtholand، لدعامات العظام المصممة للاستخدام اليومي بسهولة. معاً، تمنحان فرق جراحة العظام وإعادة التأهيل في المملكة العربية السعودية ودول الخليج مجموعة تمتد من الجبائر الحادة إلى الدعامات طويلة الأمد."
+  },
+  "relatedProductSlugs": [],
+  "relatedPartnerSlugs": ["benecare-medical", "ortholand"],
+  "icon": "Bone",
+  "status": "active"
+}

@@ -1,0 +1,1 @@
+One JSON file per Knowledge Center item, validated against `content/schemas/news.ts`. `type` distinguishes article / case-study / white-paper / news / event / workshop within this single collection (Section 9.8). Ships with zero or minimal seed content in Phase 6 — structure is the deliverable, not fabricated articles (Section 2.2).

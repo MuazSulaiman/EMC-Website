@@ -1,0 +1,159 @@
+{
+  "intro": {
+    "eyebrow": { "en": "About EMC", "ar": "عن EMC" },
+    "headline": { "en": "About Excellence Medical Care", "ar": "عن إكسلنس ميديكال كير" }
+  },
+  "whoWeAre": {
+    "headline": { "en": "Who We Are", "ar": "من نحن" },
+    "body": {
+      "en": "Excellence Medical Care Ltd. (EMC) is a Dammam-based healthcare technology and medical solutions partner, connecting Saudi and Gulf healthcare providers with global medical technologies and the clinical training, technical support, regulatory knowledge, and after-sales service that make them safe and effective in practice.",
+      "ar": "شركة إكسلنس ميديكال كير المحدودة (EMC) هي شريك في التقنية الطبية والحلول الطبية مقرها الدمام، تربط مقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج بالتقنيات الطبية العالمية، إلى جانب التدريب السريري، والدعم الفني، والمعرفة التنظيمية، وخدمة ما بعد البيع التي تجعل هذه التقنيات آمنة وفعالة في الممارسة العملية."
+    }
+  },
+  "ourStory": {
+    "headline": { "en": "Our Story", "ar": "قصتنا" },
+    "body": {
+      "en": "EMC was established in 2013 in Dammam, Saudi Arabia, trading as Tamioz/TamiozMed. Since then, the company has built partnerships with specialist manufacturers across airway management, anesthesia, orthopedics, and infection control — bringing their technologies to Ministry of Health, military, university, and private hospitals across the Kingdom and the wider Gulf region.",
+      "ar": "تأسست إكسلنس ميديكال كير عام 2013 في الدمام بالمملكة العربية السعودية، وتعمل تحت الاسم التجاري تميز / TamiozMed. ومنذ ذلك الحين، بنت الشركة شراكات مع مصنّعين متخصصين في مجالات إدارة مجرى الهواء، والتخدير، وجراحة العظام، ومكافحة العدوى — لتقديم تقنياتهم إلى مستشفيات وزارة الصحة، والمستشفيات العسكرية والجامعية والخاصة في مختلف أنحاء المملكة ودول الخليج الأوسع."
+    }
+  },
+  "vision": {
+    "en": "To inspire a healthier future by being the leading provider of innovative healthcare solutions across Saudi Arabia and the Gulf Region.",
+    "ar": "نلهم مستقبلاً صحياً أفضل من خلال ريادتنا في تقديم الحلول الصحية المبتكرة في جميع أنحاء المملكة العربية السعودية ودول الخليج."
+  },
+  "mission": {
+    "en": "Driven by excellence and innovation, we partner with healthcare providers to deliver world-class medical technologies that create safer procedures, greater clinical confidence, and better patient care.",
+    "ar": "انطلاقاً من التميز والابتكار، نتشارك مع مقدمي الرعاية الصحية لتقديم تقنيات طبية عالمية المستوى تحقق إجراءات أكثر أماناً، وثقة سريرية أكبر، ورعاية أفضل للمرضى."
+  },
+  "values": [
+    {
+      "name": { "en": "Innovation", "ar": "الابتكار" },
+      "description": {
+        "en": "Bringing new medical technologies to Saudi and Gulf healthcare providers as they become available.",
+        "ar": "تقديم أحدث التقنيات الطبية لمقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج فور توفرها."
+      }
+    },
+    {
+      "name": { "en": "Quality", "ar": "الجودة" },
+      "description": {
+        "en": "Representing manufacturers whose products meet the certification standards their clinical use requires.",
+        "ar": "تمثيل الشركات المصنعة التي تلتزم منتجاتها بمعايير الاعتماد التي يتطلبها استخدامها السريري."
+      }
+    },
+    {
+      "name": { "en": "Integrity", "ar": "النزاهة" },
+      "description": {
+        "en": "Being precise about what a technology can do — and honest about what it can't — with every hospital partner.",
+        "ar": "توخي الدقة فيما تستطيع التقنية تقديمه — والصراحة فيما لا تستطيعه — مع كل شريك من شركائنا في المستشفيات."
+      }
+    },
+    {
+      "name": { "en": "Customer Success", "ar": "نجاح العملاء" },
+      "description": {
+        "en": "Measuring success by whether a technology works for the clinical team using it, not by the sale alone.",
+        "ar": "قياس النجاح بمدى فعالية التقنية للفريق السريري الذي يستخدمها، لا بعملية البيع وحدها."
+      }
+    },
+    {
+      "name": { "en": "Patient First", "ar": "المريض أولاً" },
+      "description": {
+        "en": "Choosing partnerships and products based on what improves patient safety and outcomes.",
+        "ar": "اختيار الشراكات والمنتجات بناءً على ما يحسّن سلامة المريض ونتائج الرعاية."
+      }
+    }
+  ],
+  "whyEmc": {
+    "eyebrow": { "en": "Why EMC", "ar": "لماذا EMC" },
+    "headline": {
+      "en": "Why Hospitals Choose to Work With EMC",
+      "ar": "لماذا تختار المستشفيات العمل مع EMC"
+    },
+    "body": {
+      "en": "A medical technology is only as good as the support behind it. Here's how EMC supports every technology it brings into a Saudi or Gulf hospital.",
+      "ar": "لا تُقاس قيمة أي تقنية طبية إلا بمستوى الدعم الذي يقف خلفها. إليكم كيف تدعم إكسلنس ميديكال كير كل تقنية تقدمها لمستشفى في المملكة العربية السعودية أو دول الخليج."
+    },
+    "pillars": [
+      {
+        "icon": "Stethoscope",
+        "title": { "en": "Clinical Expertise", "ar": "الخبرة السريرية" },
+        "body": {
+          "en": "EMC's portfolio is built around understanding the clinical problem first — airway visualization, infection prevention, post-operative support — and matching it to a manufacturer whose technology addresses it directly, rather than selling equipment for its own sake.",
+          "ar": "تُبنى محفظة إكسلنس ميديكال كير على فهم المشكلة السريرية أولاً — سواء كانت تصوير مجرى الهواء، أو الوقاية من العدوى، أو الدعم بعد العمليات — ثم مطابقتها مع الشركة المصنعة التي تعالج هذه المشكلة مباشرة، بدلاً من بيع الأجهزة لذاتها."
+        }
+      },
+      {
+        "icon": "Wrench",
+        "title": { "en": "Technical Support", "ar": "الدعم الفني" },
+        "body": {
+          "en": "Every technology EMC brings into a hospital comes with direct access to the team that installed it — for questions during setup, day-to-day use, or troubleshooting.",
+          "ar": "تأتي كل تقنية تقدمها إكسلنس ميديكال كير لمستشفى مصحوبة بإمكانية التواصل المباشر مع الفريق الذي قام بتركيبها — للاستفسارات أثناء الإعداد، أو الاستخدام اليومي، أو استكشاف الأعطال وإصلاحها."
+        }
+      },
+      {
+        "icon": "GraduationCap",
+        "title": { "en": "Training & Education", "ar": "التدريب والتعليم" },
+        "body": {
+          "en": "New equipment only improves outcomes if the clinical team using it is confident with it. EMC provides hands-on training at installation and ongoing education as new products join the portfolio.",
+          "ar": "لا تُحسّن الأجهزة الجديدة النتائج إلا إذا كان الفريق السريري الذي يستخدمها واثقاً منها. تقدم إكسلنس ميديكال كير تدريباً عملياً عند التركيب، وتعليماً مستمراً مع انضمام منتجات جديدة إلى المحفظة."
+        }
+      },
+      {
+        "icon": "PhoneCall",
+        "title": { "en": "After-Sales Service", "ar": "خدمة ما بعد البيع" },
+        "body": {
+          "en": "EMC's relationship with a hospital doesn't end at delivery. Maintenance, consumables, and technical questions are handled by the same team that manages the original installation.",
+          "ar": "لا تنتهي علاقة إكسلنس ميديكال كير بالمستشفى عند التسليم. تتم إدارة الصيانة، والمستهلكات، والاستفسارات الفنية من قبل الفريق ذاته الذي أشرف على التركيب الأصلي."
+        }
+      },
+      {
+        "icon": "FileCheck",
+        "title": { "en": "Regulatory Knowledge", "ar": "المعرفة التنظيمية" },
+        "body": {
+          "en": "Bringing a medical technology into Saudi Arabia means navigating registration and procurement requirements before it ever reaches a hospital. EMC handles that process as part of every partnership, so hospital and procurement teams work with a partner who already understands the pathway.",
+          "ar": "يتطلب إدخال أي تقنية طبية إلى المملكة العربية السعودية التعامل مع متطلبات التسجيل والشراء قبل وصولها إلى المستشفى. تتولى إكسلنس ميديكال كير هذه العملية كجزء من كل شراكة، بحيث تتعامل فرق المستشفيات والمشتريات مع شريك يفهم هذا المسار مسبقاً."
+        }
+      },
+      {
+        "icon": "Zap",
+        "title": { "en": "Fast Response", "ar": "استجابة سريعة" },
+        "body": {
+          "en": "EMC's team is based in Dammam and works directly with Saudi and Gulf hospitals — without routing every request through an overseas manufacturer first.",
+          "ar": "يتمركز فريق إكسلنس ميديكال كير في الدمام ويعمل مباشرة مع المستشفيات في المملكة العربية السعودية ودول الخليج — دون الحاجة لتمرير كل طلب عبر الشركة المصنعة في الخارج أولاً."
+        }
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": { "en": "Hospital Partnership", "ar": "شراكة مع المستشفيات" },
+        "body": {
+          "en": "EMC works with Ministry of Health, military, university, and private hospitals as an ongoing partner — not a one-time vendor — staying involved through the life of the equipment it supplies.",
+          "ar": "تعمل إكسلنس ميديكال كير مع مستشفيات وزارة الصحة، والمستشفيات العسكرية والجامعية والخاصة، كشريك مستمر — لا كمورّد لمرة واحدة — وتبقى حاضرة طوال عمر الأجهزة التي توردها."
+        }
+      },
+      {
+        "icon": "BadgeCheck",
+        "title": { "en": "Quality Assurance", "ar": "ضمان الجودة" },
+        "body": {
+          "en": "EMC represents manufacturers that hold the certifications their product category requires — and states only the certifications that are documented, not implied.",
+          "ar": "تمثل إكسلنس ميديكال كير شركات مصنعة حاصلة على الشهادات التي تتطلبها فئة منتجاتها — ولا تذكر إكسلنس ميديكال كير سوى الشهادات الموثقة فعلياً، دون أي إيحاء بخلاف ذلك."
+        }
+      }
+    ]
+  },
+  "leadership": [
+    {
+      "name": "Moosa Almoosa",
+      "title": { "en": "Founder & Chief Executive Officer", "ar": "المؤسس والرئيس التنفيذي" },
+      "bio": {
+        "en": "Moosa Almoosa founded Excellence Medical Care in 2013 and leads the company's work connecting Saudi and Gulf healthcare providers with global medical technology partners.",
+        "ar": "أسس موسى الموسى شركة إكسلنس ميديكال كير عام 2013، ويقود عمل الشركة في ربط مقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج بشركاء التقنية الطبية العالميين."
+      }
+    }
+  ],
+  "corporatePhilosophy": {
+    "headline": { "en": "Our Philosophy", "ar": "فلسفتنا" },
+    "body": {
+      "en": "We don't think of ourselves as a distributor. A distributor moves boxes; a technology partner makes sure the people using what's inside them are trained, supported, and confident in it. That's the standard EMC holds itself to with every partnership and every hospital relationship.",
+      "ar": "لا ننظر إلى أنفسنا كموزّع. فالموزّع ينقل الصناديق فقط؛ أما شريك التقنية فيتأكد من أن من يستخدم ما بداخلها مدرّب ومدعوم وواثق من استخدامه. هذا هو المعيار الذي تلتزم به إكسلنس ميديكال كير في كل شراكة وكل علاقة مع المستشفيات."
+    }
+  }
+}

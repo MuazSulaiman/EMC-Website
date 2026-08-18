@@ -1,0 +1,44 @@
+{
+  "solutionsIndex": {
+    "eyebrow": { "en": "Our Solutions", "ar": "حلولنا" },
+    "headline": { "en": "Clinical Solutions", "ar": "الحلول السريرية" },
+    "body": {
+      "en": "Six clinical categories, each built around a real manufacturer partnership rather than a catalog of unrelated products. Every solution links to the products and partner behind it.",
+      "ar": "ست فئات سريرية، كل منها مبنية على شراكة حقيقية مع شركة مصنعة، وليست مجرد كتالوج لمنتجات غير مترابطة. يرتبط كل حل بالمنتجات والشريك الذي يقف خلفه."
+    }
+  },
+  "partnersIndex": {
+    "eyebrow": { "en": "Our Partners", "ar": "شركاؤنا" },
+    "headline": { "en": "Manufacturer Partners", "ar": "الشركاء المصنّعون" },
+    "body": {
+      "en": "EMC represents five specialist manufacturers in Saudi Arabia and the Gulf. Each partner page covers what they make, where their technology fits, and how to reach their team through EMC.",
+      "ar": "تمثل إكسلنس ميديكال كير خمس شركات مصنعة متخصصة في المملكة العربية السعودية ودول الخليج. توضح صفحة كل شريك ما تصنعه الشركة، وأين تتناسب تقنيتها، وكيفية التواصل مع فريقها عبر إكسلنس ميديكال كير."
+    }
+  },
+  "productsIndex": {
+    "eyebrow": { "en": "Products", "ar": "المنتجات" },
+    "headline": { "en": "Browse Our Products", "ar": "تصفح منتجاتنا" },
+    "body": {
+      "en": "Filter by solution or manufacturer, or search by name. Every product here ships from a verified partner — nothing is listed until EMC and the manufacturer confirm it.",
+      "ar": "صفّوا حسب الحل أو الشركة المصنعة، أو ابحثوا بالاسم. كل منتج هنا يأتي من شريك موثّق — ولا يُدرج أي منتج قبل تأكيده من إكسلنس ميديكال كير والشركة المصنعة."
+    }
+  },
+  "knowledgeCenterIndex": {
+    "eyebrow": { "en": "Knowledge Center", "ar": "مركز المعرفة" },
+    "headline": { "en": "Clinical Articles, Case Studies & Events", "ar": "مقالات سريرية، ودراسات حالة، وفعاليات" },
+    "body": {
+      "en": "Filter by article, case study, white paper, news, event, or workshop.",
+      "ar": "صفّوا حسب المقال، أو دراسة الحالة، أو الورقة البيضاء، أو الأخبار، أو الفعالية، أو ورشة العمل."
+    }
+  },
+  "detailPageCta": {
+    "headline": {
+      "en": "Have a question about this technology?",
+      "ar": "هل لديكم سؤال حول هذه التقنية؟"
+    },
+    "body": {
+      "en": "Speak with our team or request a demo to see it in a clinical setting.",
+      "ar": "تواصلوا مع فريقنا أو اطلبوا عرضاً توضيحياً لمشاهدتها في بيئة سريرية."
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "products": "Products",
+    "partners": "Partners",
+    "whyEmc": "Why EMC",
+    "services": "Services",
+    "knowledgeCenter": "Knowledge Center",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "browseAllProducts": "Browse All Products",
+    "solutionsMenu": {
+      "airwayManagement": "Airway Management",
+      "anesthesia": "Anesthesia",
+      "criticalCare": "Critical Care",
+      "respiratoryCare": "Respiratory Care",
+      "orthopedics": "Orthopedics",
+      "infectionControl": "Infection Control"
+    },
+    "partnersMenu": {
+      "ueMedical": "UE Medical",
+      "oxyPharm": "OXY'PHARM",
+      "longLifeSurgical": "Long Life Surgical Industries",
+      "beneCareMedical": "BeneCare Medical",
+      "ortholand": "Ortholand"
+    }
+  },
+  "cta": {
+    "requestDemo": "Request a Demo",
+    "requestQuotation": "Request a Quotation",
+    "speakWithSpecialist": "Speak with a Product Specialist",
+    "downloadBrochure": "Download Brochure",
+    "contactEmc": "Contact EMC",
+    "exploreSolutions": "Explore Our Solutions"
+  },
+  "footer": {
+    "tagline": "Healthcare technology and medical solutions partner in Saudi Arabia and the Gulf.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookiePolicy": "Cookie Policy",
+    "sitemap": "Sitemap",
+    "followUs": "Follow Us",
+    "contactInfo": "Contact Information",
+    "rightsReserved": "All rights reserved."
+  },
+  "partners": {
+    "establishedLabel": "Est."
+  },
+  "products": {
+    "category": "Category",
+    "family": "Family",
+    "model": "Model",
+    "businessUnit": "Business Unit",
+    "clinicalApplications": "Clinical Applications",
+    "keyBenefits": "Key Benefits",
+    "features": "Features",
+    "technicalSpecs": "Technical Specifications",
+    "certificates": "Certificates",
+    "downloads": "Downloads",
+    "ifu": "Instructions for Use",
+    "relatedProducts": "Related Products",
+    "manufacturedBy": "Manufactured By"
+  },
+  "about": {
+    "vision": "Vision",
+    "mission": "Mission",
+    "coreValues": "Core Values",
+    "leadership": "Leadership"
+  },
+  "legal": {
+    "reviewNotice": "This page is a generic draft and hasn't yet been reviewed by EMC's legal counsel. It will be finalized before launch."
+  },
+  "knowledgeCenter": {
+    "types": {
+      "article": "Article",
+      "case-study": "Case Study",
+      "white-paper": "White Paper",
+      "news": "News",
+      "event": "Event",
+      "workshop": "Workshop"
+    },
+    "emptyTitle": "Content is on its way",
+    "emptyBody": "We're building out clinical articles, case studies, and event listings — check back soon."
+  },
+  "careers": {
+    "emptyTitle": "No open positions right now",
+    "emptyBody": "We don't have any open roles at the moment, but we'd like to hear from you.",
+    "joinTalentNetwork": "Join Our Talent Network",
+    "cultureTitle": "Working at EMC",
+    "applicationTitle": "Talent Network Application",
+    "applicationIntro": "Tell us a bit about yourself — we'll reach out when a relevant role opens up.",
+    "linkedinUrl": "LinkedIn Profile",
+    "position": "Position of Interest",
+    "positionPlaceholder": "General interest",
+    "cv": "CV / Resume",
+    "cvHelp": "PDF or Word document, up to 5MB."
+  },
+  "forms": {
+    "genericError": "Something went wrong. Please try again or contact us directly.",
+    "successTitle": "Request received",
+    "successBody": "Thank you — our team will be in touch shortly.",
+    "demoRequestIntro": "Tell us about your facility and we'll arrange a demo with a specialist.",
+    "quoteRequestIntro": "Share a few details and our team will follow up with pricing.",
+    "fullName": "Full Name",
+    "name": "Name",
+    "organization": "Organization",
+    "jobTitle": "Job Title",
+    "department": "Department",
+    "city": "City",
+    "email": "Email",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "message": "Message",
+    "preferredContactMethod": "Preferred Contact Method",
+    "productOrSolutionOfInterest": "Product or Solution of Interest",
+    "contactMethods": {
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp"
+    },
+    "contactPerson": "Contact Person",
+    "product": "Product",
+    "quantity": "Quantity",
+    "procurementType": "Procurement Type",
+    "procurementTypes": {
+      "tender": "Tender",
+      "direct": "Direct Purchase"
+    },
+    "inquiryType": "Inquiry Type",
+    "inquiryTypes": {
+      "general": "Corporate",
+      "sales": "Sales",
+      "technical-support": "Technical Support",
+      "demo-request": "Demo Request"
+    },
+    "submit": "Submit"
+  },
+  "common": {
+    "backToTop": "Back to top",
+    "whatsapp": "Chat on WhatsApp",
+    "search": "Search",
+    "searchPlaceholder": "Search products, solutions, articles…",
+    "menu": "Menu",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "comingSoon": "Coming soon",
+    "pendingConfirmation": "Pending confirmation",
+    "noResults": "No products match your filters.",
+    "overview": "Overview",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "language": "Language",
+    "switchLanguage": "العربية",
+    "breadcrumbHome": "Home"
+  }
+}

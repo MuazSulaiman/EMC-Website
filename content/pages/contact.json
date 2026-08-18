@@ -1,0 +1,15 @@
+{
+  "intro": {
+    "eyebrow": { "en": "Contact", "ar": "تواصل معنا" },
+    "headline": { "en": "Let's Talk", "ar": "لنتحدث" },
+    "body": {
+      "en": "Whether you're evaluating a technology, need technical support, or want to talk procurement, our team is based in Dammam and ready to help.",
+      "ar": "سواء كنتم تقيّمون تقنية معينة، أو تحتاجون إلى دعم فني، أو ترغبون في مناقشة أمور الشراء، فإن فريقنا يتمركز في الدمام وجاهز لمساعدتكم."
+    }
+  },
+  "workingHours": {
+    "en": "Sunday–Thursday, 8:00 AM – 5:00 PM",
+    "ar": "الأحد – الخميس، 8:00 صباحاً – 5:00 مساءً"
+  },
+  "workingHoursVerified": false
+}

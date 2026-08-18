@@ -1,0 +1,1 @@
+One JSON file per partner, validated against `content/schemas/partner.ts`. Seeded in Phase 3 with the 5 verified partners from Section 2.1: UE Medical, OXY'PHARM, Long Life Surgical Industries, BeneCare Medical, Ortholand.

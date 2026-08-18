@@ -1,0 +1,16 @@
+{
+  "slug": "benecare-medical",
+  "name": "BeneCare Medical",
+  "country": "United Kingdom",
+  "foundedYear": 2001,
+  "summary": {
+    "en": "Established in 2001 in the United Kingdom, BeneCare Medical manufactures casting materials, orthopedic footwear, and upper and lower limb orthotics built on low-temperature thermoplastics.",
+    "ar": "تأسست BeneCare Medical عام 2001 في المملكة المتحدة، وتصنّع مواد الجبائر، وأحذية تقويم العظام، والأجهزة التقويمية للأطراف العلوية والسفلية المصنوعة من مواد لدائن حرارية منخفضة الحرارة."
+  },
+  "technologyExpertise": {
+    "en": "BeneCare's range centers on low-temperature thermoplastic materials — used across casting, orthopedic footwear, and custom upper- and lower-limb orthotics for post-operative and long-term rehabilitation care.",
+    "ar": "تتمحور مجموعة منتجات BeneCare حول مواد اللدائن الحرارية منخفضة الحرارة — المستخدمة في الجبائر، وأحذية تقويم العظام، والأجهزة التقويمية المخصصة للأطراف العلوية والسفلية لرعاية التأهيل بعد العمليات وعلى المدى الطويل."
+  },
+  "clinicalAreas": ["orthopedics"],
+  "featuredProductSlugs": []
+}

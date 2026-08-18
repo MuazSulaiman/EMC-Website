@@ -1,0 +1,16 @@
+{
+  "slug": "anesthesia",
+  "name": { "en": "Anesthesia", "ar": "التخدير" },
+  "shortDescription": {
+    "en": "Airway and monitoring technology that supports anesthesiology teams before, during, and after procedures.",
+    "ar": "تقنيات مجرى الهواء والمراقبة التي تدعم فرق التخدير قبل الإجراءات وأثناءها وبعدها."
+  },
+  "clinicalOverview": {
+    "en": "Anesthesiology depends on reliable airway confirmation and clear visualization under pressure. EMC's anesthesia portfolio is anchored in the same UE Medical airway platform used across our Airway Management solution — giving anesthesiologists a shared, familiar toolset for routine and difficult airway cases alike, backed by the training and technical support EMC provides alongside every installation.",
+    "ar": "يعتمد التخدير على تأكيد موثوق لمجرى الهواء ورؤية واضحة في الحالات الحرجة. ترتكز مجموعة حلول التخدير لدى إكسلنس ميديكال كير على منصة مجرى الهواء ذاتها من UE Medical المستخدمة في حل إدارة مجرى الهواء — لتزويد أطباء التخدير بأدوات موحدة ومألوفة للحالات الروتينية والصعبة على حد سواء، مدعومة بالتدريب والدعم الفني الذي تقدمه إكسلنس ميديكال كير مع كل عملية توريد."
+  },
+  "relatedProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask", "flexible-bronchoscope"],
+  "relatedPartnerSlugs": ["ue-medical"],
+  "icon": "Syringe",
+  "status": "active"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "years-of-experience",
+    "label": { "en": "Years of Experience", "ar": "سنوات الخبرة" },
+    "value": null,
+    "verified": false,
+    "displayIfUnverified": false
+  },
+  {
+    "id": "products",
+    "label": { "en": "Products", "ar": "المنتجات" },
+    "value": null,
+    "verified": false,
+    "displayIfUnverified": false
+  },
+  {
+    "id": "partners",
+    "label": { "en": "Suppliers & Partners", "ar": "الموردون والشركاء" },
+    "value": null,
+    "verified": false,
+    "displayIfUnverified": false
+  }
+]

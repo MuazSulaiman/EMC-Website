@@ -1,0 +1,54 @@
+{
+  "intro": {
+    "eyebrow": { "en": "Careers", "ar": "الوظائف" },
+    "headline": { "en": "Work at EMC", "ar": "العمل في EMC" },
+    "body": {
+      "en": "We're a small, Dammam-based team connecting Saudi and Gulf hospitals with global medical technology partners.",
+      "ar": "نحن فريق صغير مقره الدمام، يربط مستشفيات المملكة العربية السعودية ودول الخليج بشركاء التقنية الطبية العالميين."
+    }
+  },
+  "culture": {
+    "headline": { "en": "Working at EMC", "ar": "العمل في EMC" },
+    "body": {
+      "en": "EMC is built around the same five values whether you're talking to a hospital or to a colleague.",
+      "ar": "تُبنى إكسلنس ميديكال كير على القيم الخمس ذاتها سواء كنتم تتحدثون مع مستشفى أو مع زميل."
+    },
+    "values": [
+      {
+        "name": { "en": "Innovation", "ar": "الابتكار" },
+        "description": {
+          "en": "You'll work with new medical technologies as EMC brings them into the market, not just maintain what's already established.",
+          "ar": "ستعملون مع تقنيات طبية جديدة مع طرحها من قبل إكسلنس ميديكال كير في السوق، وليس فقط الحفاظ على ما هو قائم."
+        }
+      },
+      {
+        "name": { "en": "Quality", "ar": "الجودة" },
+        "description": {
+          "en": "We hold the manufacturers we represent to a real certification bar, and we hold our own work to the same standard.",
+          "ar": "نُخضع الشركات المصنعة التي نمثلها لمعيار اعتماد حقيقي، ونُخضع عملنا الخاص لنفس المعيار."
+        }
+      },
+      {
+        "name": { "en": "Integrity", "ar": "النزاهة" },
+        "description": {
+          "en": "We're expected to be straightforward with hospital partners about what a technology can and can't do — that same standard applies internally.",
+          "ar": "يُتوقع منا التحلي بالصراحة مع شركائنا في المستشفيات بشأن ما يمكن للتقنية فعله وما لا يمكنها فعله — وينطبق المعيار ذاته داخلياً."
+        }
+      },
+      {
+        "name": { "en": "Customer Success", "ar": "نجاح العملاء" },
+        "description": {
+          "en": "Your work is judged by whether the clinical teams we support actually succeed with what we bring them.",
+          "ar": "يُقيَّم عملكم بناءً على مدى نجاح الفرق السريرية التي ندعمها فعلياً بما نقدمه لها."
+        }
+      },
+      {
+        "name": { "en": "Patient First", "ar": "المريض أولاً" },
+        "description": {
+          "en": "Every role here, from technical support to procurement, ties back to patient safety and outcomes.",
+          "ar": "كل دور هنا، من الدعم الفني إلى المشتريات، يرتبط في النهاية بسلامة المريض ونتائج الرعاية."
+        }
+      }
+    ]
+  }
+}

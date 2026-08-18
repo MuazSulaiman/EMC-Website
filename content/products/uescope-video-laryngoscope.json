@@ -1,0 +1,55 @@
+{
+  "slug": "uescope-video-laryngoscope",
+  "name": "UEScope Video Laryngoscope",
+  "manufacturer": "ue-medical",
+  "businessUnit": "Airway Management",
+  "clinicalSpecialty": ["airway-management", "anesthesia"],
+  "category": "Video Laryngoscope",
+  "family": "UEScope",
+  "model": "VL300 / VL310",
+  "shortDescription": {
+    "en": "A reusable video laryngoscope with a wide-angle view and an all-angle adjustable monitor, built for the UE Integrated Airway Management Platform.",
+    "ar": "منظار حنجرة بالفيديو قابل لإعادة الاستخدام بزاوية رؤية واسعة وشاشة مراقبة قابلة للتعديل بكل الزوايا، مصمم للعمل ضمن منصة UE المتكاملة لإدارة مجرى الهواء."
+  },
+  "gallery": [],
+  "clinicalApplications": {
+    "en": "Used for direct and video-assisted tracheal intubation across anesthesia, emergency medicine, and ICU airway management, including routine and anticipated difficult airway cases. Runs on the shared UE monitor alongside the platform's other airway devices, so the same screen and workflow carry across a hospital's laryngoscopy, laryngeal mask, and bronchoscopy cases.",
+    "ar": "يُستخدم للتنبيب الرغامي المباشر والموجّه بالفيديو في التخدير وطب الطوارئ وإدارة مجرى الهواء بالعناية المركزة، بما في ذلك الحالات الروتينية وحالات مجرى الهواء الصعب المتوقعة. يعمل على شاشة UE المشتركة جنباً إلى جنب مع أجهزة مجرى الهواء الأخرى ضمن المنصة، بحيث تبقى الشاشة وسير العمل موحّدين عبر حالات تنظير الحنجرة والقناع الحنجري وتنظير القصبات في المستشفى."
+  },
+  "keyFeatures": [
+    { "en": "60° angle of view", "ar": "زاوية رؤية 60 درجة" },
+    { "en": "5 interchangeable blade sizes", "ar": "5 مقاسات نصل قابلة للتبديل" },
+    { "en": "All-angle adjustable monitor", "ar": "شاشة مراقبة قابلة للتعديل بكل الزوايا" },
+    { "en": "Photo and video capture (VL310)", "ar": "التقاط الصور والفيديو (VL310)" },
+    { "en": "Compatible with the UE Integrated Airway Management Platform monitor", "ar": "متوافق مع شاشة منصة UE المتكاملة لإدارة مجرى الهواء" }
+  ],
+  "keyBenefits": [
+    {
+      "en": "A wide angle of view designed to give a clearer look at the glottis during intubation.",
+      "ar": "زاوية رؤية واسعة مصممة لتوفير رؤية أوضح للمزمار أثناء التنبيب."
+    },
+    {
+      "en": "Five blade sizes cover adult and pediatric cases without switching devices.",
+      "ar": "خمسة مقاسات للنصل تغطي حالات البالغين والأطفال دون الحاجة لتغيير الجهاز."
+    },
+    {
+      "en": "Photo and video capture supports documentation and teaching without extra equipment.",
+      "ar": "التقاط الصور والفيديو يدعم التوثيق والتدريب دون الحاجة لمعدات إضافية."
+    }
+  ],
+  "technicalSpecs": [
+    { "label": { "en": "Angle of View", "ar": "زاوية الرؤية" }, "value": { "en": "60°", "ar": "60 درجة" } },
+    { "label": { "en": "Blade Sizes", "ar": "مقاسات النصل" }, "value": { "en": "5", "ar": "5" } },
+    { "label": { "en": "Monitor", "ar": "شاشة المراقبة" }, "value": { "en": "All-angle adjustable", "ar": "قابلة للتعديل بكل الزوايا" } },
+    { "label": { "en": "Photo/Video Capture", "ar": "التقاط الصور/الفيديو" }, "value": { "en": "Yes (VL310)", "ar": "نعم (VL310)" } },
+    { "label": { "en": "Warranty", "ar": "الضمان" }, "value": { "en": "2 years", "ar": "سنتان" } }
+  ],
+  "accessories": [],
+  "compatibleProductSlugs": ["sacovlm-video-laryngeal-mask", "flexible-bronchoscope"],
+  "certificates": [
+    { "name": "SFDA Certified", "sourceDocumentRef": "tamiozmed.com product listing (pre-migration live site)" },
+    { "name": "MDNR Certified", "sourceDocumentRef": "tamiozmed.com product listing (pre-migration live site)" }
+  ],
+  "videos": [],
+  "relatedProductSlugs": ["sacovlm-video-laryngeal-mask", "flexible-bronchoscope"]
+}

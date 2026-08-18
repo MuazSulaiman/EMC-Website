@@ -1,0 +1,59 @@
+{
+  "headline": { "en": "Privacy Policy", "ar": "سياسة الخصوصية" },
+  "lastUpdated": "2026-08-07",
+  "intro": {
+    "en": "This policy explains what information Excellence Medical Care Ltd. (EMC) collects through this website, how it's used, and how you can reach us about it. This is a generic draft pending EMC's legal review — see the note at the end of this page.",
+    "ar": "توضح هذه السياسة المعلومات التي تجمعها شركة إكسلنس ميديكال كير المحدودة (EMC) عبر هذا الموقع، وكيفية استخدامها، وكيفية التواصل معنا بشأنها. هذه مسودة عامة قيد المراجعة القانونية من قبل إكسلنس ميديكال كير — انظر الملاحظة في نهاية هذه الصفحة."
+  },
+  "sections": [
+    {
+      "title": { "en": "Information We Collect", "ar": "المعلومات التي نجمعها" },
+      "body": {
+        "en": "We collect information you provide directly through this website's forms — for example, your name, organization, job title, email, phone number, and message when you request a demo, request a quotation, contact us, or apply through our Talent Network (which may include a CV file). We do not currently use analytics or advertising tracking on this website.",
+        "ar": "نجمع المعلومات التي تقدمونها مباشرة من خلال نماذج هذا الموقع — مثل الاسم، والمنشأة، والمسمى الوظيفي، والبريد الإلكتروني، ورقم الهاتف، والرسالة عند طلب عرض توضيحي، أو طلب عرض سعر، أو التواصل معنا، أو التقديم عبر شبكة المواهب لدينا (والتي قد تتضمن ملف السيرة الذاتية). لا نستخدم حالياً أدوات تحليل أو تتبع إعلاني على هذا الموقع."
+      }
+    },
+    {
+      "title": { "en": "How We Use Your Information", "ar": "كيفية استخدام معلوماتكم" },
+      "body": {
+        "en": "We use the information you submit to respond to your request — for example, to arrange a demo, prepare a quotation, answer a question, or review a job application. We don't use it for unrelated marketing without your consent.",
+        "ar": "نستخدم المعلومات التي تقدمونها للرد على طلبكم — مثل ترتيب عرض توضيحي، أو إعداد عرض سعر، أو الإجابة على استفسار، أو مراجعة طلب توظيف. لا نستخدمها لأغراض تسويقية غير ذات صلة دون موافقتكم."
+      }
+    },
+    {
+      "title": { "en": "How We Store Your Information", "ar": "كيفية تخزين معلوماتكم" },
+      "body": {
+        "en": "Form submissions are stored securely and are retained only as long as needed to respond to your request, unless a longer retention period is required for a legitimate business or legal reason.",
+        "ar": "يتم تخزين البيانات المرسلة عبر النماذج بشكل آمن، ولا يتم الاحتفاظ بها إلا للمدة اللازمة للرد على طلبكم، ما لم تستدعِ الحاجة الاحتفاظ بها لفترة أطول لغرض تجاري أو قانوني مشروع."
+      }
+    },
+    {
+      "title": { "en": "Sharing Your Information", "ar": "مشاركة معلوماتكم" },
+      "body": {
+        "en": "We do not sell your personal information. It may be shared internally within EMC's team to respond to your request, and — where a request specifically concerns a manufacturer partner's product — with that partner, as needed to fulfill your request.",
+        "ar": "لا نبيع معلوماتكم الشخصية. قد تتم مشاركتها داخلياً ضمن فريق إكسلنس ميديكال كير للرد على طلبكم، وفي حال كان الطلب متعلقاً تحديداً بمنتج أحد الشركاء المصنّعين، قد تُشارك مع ذلك الشريك بالقدر اللازم لتلبية طلبكم."
+      }
+    },
+    {
+      "title": { "en": "Your Rights", "ar": "حقوقكم" },
+      "body": {
+        "en": "You can contact us at any time to ask what information we hold about you, to correct it, or to request that it be deleted.",
+        "ar": "يمكنكم التواصل معنا في أي وقت للاستفسار عن المعلومات التي نحتفظ بها عنكم، أو لتصحيحها، أو لطلب حذفها."
+      }
+    },
+    {
+      "title": { "en": "Changes to This Policy", "ar": "التغييرات على هذه السياسة" },
+      "body": {
+        "en": "We may update this policy from time to time. The date at the top of this page shows when it was last revised.",
+        "ar": "قد نقوم بتحديث هذه السياسة من وقت لآخر. يوضح التاريخ أعلى هذه الصفحة موعد آخر مراجعة لها."
+      }
+    },
+    {
+      "title": { "en": "Contact Us", "ar": "تواصل معنا" },
+      "body": {
+        "en": "For any questions about this policy or your information, contact us at info@tamiozmed.com.",
+        "ar": "لأي استفسارات حول هذه السياسة أو معلوماتكم، تواصلوا معنا عبر info@tamiozmed.com."
+      }
+    }
+  ]
+}

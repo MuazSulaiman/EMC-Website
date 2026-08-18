@@ -1,0 +1,1 @@
+One JSON file per solution, validated against `content/schemas/solution.ts`. Seeded in Phase 3 (Section 16) with all 6 clinical categories from Section 7 — Airway Management and Anesthesia fully substantiated from UE Medical material, Critical Care and Respiratory Care shipped with `status: "expanding"` until EMC supplies products (Section 9.3).

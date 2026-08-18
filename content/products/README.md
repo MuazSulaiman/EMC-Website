@@ -1,0 +1,1 @@
+One JSON file per product, validated against `content/schemas/product.ts`. Seeded in Phase 4 with UE Medical's actual product line (UEScope, SaCoVLM, Flexible Bronchoscope) as the reference implementation for future products.

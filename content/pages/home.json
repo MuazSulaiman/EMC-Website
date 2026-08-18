@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "eyebrow": {
+      "en": "Advancing Healthcare Through Technology",
+      "ar": "نُقدّم الرعاية الصحية إلى الأمام من خلال التقنية"
+    },
+    "headline": {
+      "en": "Excellence Medical Care",
+      "ar": "إكسلنس ميديكال كير"
+    },
+    "subhead": {
+      "en": "EMC connects Saudi and Gulf healthcare providers with the global medical technologies, clinical training, and technical support that make advanced care possible.",
+      "ar": "تربط إكسلنس ميديكال كير مقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج بالتقنيات الطبية العالمية، والتدريب السريري، والدعم الفني الذي يجعل الرعاية المتقدمة ممكنة."
+    },
+    "imageAlt": {
+      "en": "A surgical team performing a procedure with airway management equipment in an operating room",
+      "ar": "فريق جراحي يجري عملية باستخدام معدات إدارة مجرى الهواء في غرفة العمليات"
+    }
+  },
+  "trustBand": {
+    "headline": {
+      "en": "Serving Saudi Healthcare Since 2013",
+      "ar": "نخدم قطاع الرعاية الصحية السعودي منذ عام 2013"
+    }
+  },
+  "solutionsGrid": {
+    "eyebrow": { "en": "Our Solutions", "ar": "حلولنا" },
+    "headline": {
+      "en": "Clinical categories built around real partnerships",
+      "ar": "فئات سريرية مبنية على شراكات حقيقية"
+    }
+  },
+  "featuredTechnology": {
+    "eyebrow": { "en": "Featured Technology", "ar": "تقنية مميزة" },
+    "headline": {
+      "en": "UE Integrated Airway Management Platform",
+      "ar": "منصة UE المتكاملة لإدارة مجرى الهواء"
+    },
+    "body": {
+      "en": "One shared monitor runs UE Medical's full airway range — video laryngoscopes, video laryngeal masks, and flexible bronchoscopes — with split-screen multi-product display and 64GB of onboard storage for photo and video capture that supports clinical teaching and case traceability, in an integrated trolley built for both in-hospital and out-of-hospital use.",
+      "ar": "تعمل شاشة مراقبة واحدة مشتركة على تشغيل كامل مجموعة أجهزة مجرى الهواء من UE Medical — أجهزة تنظير الحنجرة بالفيديو، والأقنعة الحنجرية البصرية، ومناظير القصبات المرنة — مع عرض شاشة مقسمة لعدة منتجات وسعة تخزين داخلية 64 جيجابايت لالتقاط الصور والفيديو تدعم التدريب السريري وتتبع الحالات، ضمن عربة متكاملة مصممة للاستخدام داخل المستشفى وخارجه."
+    },
+    "imageAlt": {
+      "en": "UE Integrated Airway Management Platform monitor displaying an endoscopic airway view, connected to a video laryngeal mask device",
+      "ar": "شاشة منصة UE المتكاملة لإدارة مجرى الهواء تعرض منظاراً داخلياً لمجرى الهواء، متصلة بجهاز قناع حنجري بالفيديو"
+    },
+    "facts": [
+      {
+        "label": { "en": "Hospitals worldwide using UE Medical products", "ar": "مستشفى حول العالم يستخدم منتجات UE Medical" },
+        "value": { "en": "11,000+", "ar": "+11,000" }
+      },
+      {
+        "label": { "en": "Countries and regions served", "ar": "دولة ومنطقة تخدمها الشركة" },
+        "value": { "en": "70+", "ar": "+70" }
+      },
+      {
+        "label": { "en": "Onboard storage for teaching & traceability", "ar": "سعة تخزين داخلية للتدريب والتتبع" },
+        "value": { "en": "64GB", "ar": "64 جيجابايت" }
+      }
+    ]
+  },
+  "partnersBand": {
+    "eyebrow": { "en": "Our Partners", "ar": "شركاؤنا" },
+    "headline": {
+      "en": "Global Technology. Local Expertise.",
+      "ar": "تقنية عالمية. خبرة محلية."
+    },
+    "body": {
+      "en": "EMC represents five specialist manufacturers spanning airway management, orthopedics, and infection control — bringing their technology to Saudi and Gulf healthcare providers with the local presence to support it.",
+      "ar": "تمثل إكسلنس ميديكال كير خمس شركات مصنعة متخصصة تغطي إدارة مجرى الهواء، وجراحة العظام، ومكافحة العدوى — لتقديم تقنياتها لمقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج، مع الحضور المحلي اللازم لدعمها."
+    }
+  },
+  "customersBand": {
+    "eyebrow": { "en": "Our Customers", "ar": "عملاؤنا" },
+    "headline": {
+      "en": "Trusted by Healthcare Providers Across the Region",
+      "ar": "موثوقون من قبل مقدمي الرعاية الصحية في المنطقة"
+    },
+    "body": {
+      "en": "The hospitals and healthcare facilities that rely on EMC for the technology, training, and support behind their clinical operations.",
+      "ar": "المستشفيات والمنشآت الصحية التي تعتمد على إكسلنس ميديكال كير في التقنية والتدريب والدعم اللازم لعملياتها السريرية."
+    }
+  },
+  "whyEmcTeaser": {
+    "eyebrow": { "en": "Why EMC", "ar": "لماذا EMC" },
+    "headline": {
+      "en": "More than a supplier — a healthcare technology partner",
+      "ar": "أكثر من مجرد مورد — شريك في التقنية الطبية"
+    },
+    "body": {
+      "en": "From clinical training to after-sales service, EMC supports every technology it brings into a Saudi or Gulf hospital with the people and processes that make it work in practice.",
+      "ar": "من التدريب السريري إلى خدمة ما بعد البيع، تدعم إكسلنس ميديكال كير كل تقنية تقدمها لمستشفى في المملكة العربية السعودية أو دول الخليج بالكوادر والإجراءات التي تجعلها تعمل فعلياً على أرض الواقع."
+    }
+  },
+  "finalCta": {
+    "headline": {
+      "en": "Let's Advance Healthcare Together",
+      "ar": "لنُقدّم الرعاية الصحية معاً"
+    },
+    "body": {
+      "en": "Speak with our team about the technologies your facility needs, or request a demo to see them in action.",
+      "ar": "تواصلوا مع فريقنا لمناقشة التقنيات التي تحتاجها منشأتكم، أو اطلبوا عرضاً توضيحياً لمشاهدتها عملياً."
+    }
+  }
+}

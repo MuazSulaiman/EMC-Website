@@ -1,0 +1,1 @@
+One JSON file per testimonial, validated against `content/schemas/testimonial.ts`. **This directory stays empty until EMC supplies real, attributable quotes.** Never add a placeholder testimonial with a fake name — the testimonials section renders a graceful empty/hidden state instead (Section 2.2, 8.7, 18).

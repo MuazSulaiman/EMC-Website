@@ -1,0 +1,53 @@
+{
+  "slug": "sacovlm-video-laryngeal-mask",
+  "name": "SaCoVLM Video Laryngeal Mask",
+  "manufacturer": "ue-medical",
+  "businessUnit": "Airway Management",
+  "clinicalSpecialty": ["airway-management", "anesthesia"],
+  "category": "Video Laryngeal Mask",
+  "family": "SaCoVLM",
+  "shortDescription": {
+    "en": "A video laryngeal mask with an integrated visual stylet, built to run on the same shared UE monitor as the rest of the airway platform.",
+    "ar": "قناع حنجري بصري مزوّد بموجّه بصري متكامل، مصمم للعمل على شاشة UE المشتركة ذاتها مع باقي أجهزة منصة مجرى الهواء."
+  },
+  "gallery": [],
+  "clinicalApplications": {
+    "en": "Provides supraglottic airway management with direct visual confirmation of placement, for use in anesthesia and airway rescue scenarios where a video laryngeal mask is clinically appropriate.",
+    "ar": "توفر إدارة مجرى هواء فوق المزمار مع تأكيد بصري مباشر لموضع الجهاز، للاستخدام في التخدير وسيناريوهات إنقاذ مجرى الهواء التي يكون فيها استخدام القناع الحنجري البصري مناسباً سريرياً."
+  },
+  "keyFeatures": [
+    { "en": "Flexible visual stylet", "ar": "موجّه بصري مرن" },
+    { "en": "Short, wide, and thick forepart for a stable seal", "ar": "مقدمة قصيرة وعريضة وسميكة لإحكام غلق مستقر" },
+    { "en": "Dedicated visual tube channel", "ar": "قناة مخصصة للأنبوب البصري" },
+    { "en": "Ventilation channel", "ar": "قناة التهوية" },
+    { "en": "Gastric tube channel", "ar": "قناة الأنبوب المعدي" },
+    { "en": "Dorsal-ventral conjoined double cuff", "ar": "كفة مزدوجة أمامية-خلفية متصلة" },
+    { "en": "Dedicated cleaning channel", "ar": "قناة تنظيف مخصصة" },
+    { "en": "Pre-molded arc connector", "ar": "موصل مقوّس مسبق التشكيل" }
+  ],
+  "keyBenefits": [
+    {
+      "en": "An integrated visual stylet is designed to let clinicians confirm placement directly, without a separate scope.",
+      "ar": "صُمم الموجّه البصري المتكامل لتمكين الأطباء من تأكيد الموضع مباشرة دون الحاجة لمنظار منفصل."
+    },
+    {
+      "en": "A separate gastric tube channel is designed to support gastric decompression alongside airway management.",
+      "ar": "صُممت قناة الأنبوب المعدي المنفصلة لدعم تخفيف الضغط المعدي إلى جانب إدارة مجرى الهواء."
+    },
+    {
+      "en": "Runs on the same UE monitor as the rest of the platform, so teams don't need a separate screen.",
+      "ar": "يعمل على شاشة UE ذاتها المستخدمة في باقي المنصة، دون الحاجة لشاشة منفصلة."
+    }
+  ],
+  "technicalSpecs": [
+    {
+      "label": { "en": "Compatibility", "ar": "التوافق" },
+      "value": { "en": "UE Integrated Airway Management Platform monitor", "ar": "شاشة منصة UE المتكاملة لإدارة مجرى الهواء" }
+    }
+  ],
+  "accessories": [],
+  "compatibleProductSlugs": ["uescope-video-laryngoscope", "flexible-bronchoscope"],
+  "certificates": [],
+  "videos": [],
+  "relatedProductSlugs": ["uescope-video-laryngoscope", "flexible-bronchoscope"]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "airway-management",
+  "name": { "en": "Airway Management", "ar": "إدارة مجرى الهواء" },
+  "shortDescription": {
+    "en": "Video laryngoscopy and airway visualization technology for safer, faster intubation.",
+    "ar": "تقنيات تنظير الحنجرة بالفيديو وتصوير مجرى الهواء لتأمين عمليات تنبيب أكثر أماناً وسرعة."
+  },
+  "clinicalOverview": {
+    "en": "Secure and confirm the airway with confidence. Through our partnership with UE Medical, EMC brings video laryngoscopes, video laryngeal masks, and flexible bronchoscopes built around a single shared monitor platform to Saudi and Gulf hospitals — supporting anesthesiology, emergency medicine, and ICU teams with a consistent, teachable approach to airway visualization across device types.",
+    "ar": "أمّن مجرى الهواء وتحقق منه بثقة. من خلال شراكتنا مع UE Medical، تقدم إكسلنس ميديكال كير لمستشفيات المملكة العربية السعودية ودول الخليج أجهزة تنظير الحنجرة بالفيديو، والأقنعة الحنجرية البصرية، ومناظير القصبات المرنة، جميعها مبنية على منصة شاشة مراقبة مشتركة واحدة — لدعم فرق التخدير وطب الطوارئ والعناية المركزة بأسلوب موحّد وسهل التدريب لتصوير مجرى الهواء عبر أنواع الأجهزة المختلفة."
+  },
+  "relatedProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask", "flexible-bronchoscope"],
+  "relatedPartnerSlugs": ["ue-medical"],
+  "icon": "Wind",
+  "status": "active"
+}

@@ -1,0 +1,86 @@
+{
+  "intro": {
+    "eyebrow": { "en": "Services", "ar": "الخدمات" },
+    "headline": { "en": "Beyond the Equipment", "ar": "أبعد من مجرد الأجهزة" },
+    "body": {
+      "en": "Every technology EMC brings into a hospital comes with the training, installation, and ongoing support that make it work in practice.",
+      "ar": "كل تقنية تقدمها إكسلنس ميديكال كير لمستشفى تأتي مصحوبة بالتدريب والتركيب والدعم المستمر الذي يجعلها تعمل فعلياً على أرض الواقع."
+    }
+  },
+  "services": [
+    {
+      "icon": "GraduationCap",
+      "title": { "en": "Clinical Training", "ar": "التدريب السريري" },
+      "description": {
+        "en": "Hands-on training for clinical teams on new equipment, delivered at installation and as new products join the portfolio.",
+        "ar": "تدريب عملي للفرق السريرية على الأجهزة الجديدة، يُقدَّم عند التركيب ومع انضمام منتجات جديدة إلى المحفظة."
+      }
+    },
+    {
+      "icon": "Users",
+      "title": { "en": "Hands-on Workshops", "ar": "ورش عمل تطبيقية" },
+      "description": {
+        "en": "Structured workshops for clinicians to practice with airway management and orthopedic devices in a supervised setting.",
+        "ar": "ورش عمل منظمة للأطباء للتدرب على أجهزة إدارة مجرى الهواء وأجهزة جراحة العظام تحت إشراف متخصص."
+      }
+    },
+    {
+      "icon": "MonitorPlay",
+      "title": { "en": "Product Demonstrations", "ar": "العروض التوضيحية للمنتجات" },
+      "description": {
+        "en": "Live demonstrations of EMC's technologies, in your facility or arranged through our team.",
+        "ar": "عروض توضيحية حية لتقنيات إكسلنس ميديكال كير، في منشأتكم أو عبر الترتيب مع فريقنا."
+      }
+    },
+    {
+      "icon": "Wrench",
+      "title": { "en": "Installation", "ar": "التركيب" },
+      "description": {
+        "en": "Equipment installation carried out by the team that supplied it, not a third-party contractor.",
+        "ar": "تركيب الأجهزة يتم بواسطة الفريق الذي قام بتوريدها، وليس مقاولاً من طرف ثالث."
+      }
+    },
+    {
+      "icon": "ClipboardCheck",
+      "title": { "en": "Commissioning", "ar": "التشغيل والاعتماد" },
+      "description": {
+        "en": "Verifying equipment is fully operational and configured correctly before clinical use begins.",
+        "ar": "التحقق من أن الجهاز يعمل بكامل طاقته ومُهيأ بشكل صحيح قبل بدء الاستخدام السريري."
+      }
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": { "en": "Maintenance & Preventive Maintenance", "ar": "الصيانة والصيانة الوقائية" },
+      "description": {
+        "en": "Scheduled maintenance and repair support to keep equipment running reliably over its working life.",
+        "ar": "دعم الصيانة الدورية والإصلاح للحفاظ على عمل الأجهزة بشكل موثوق طوال عمرها التشغيلي."
+      }
+    },
+    {
+      "icon": "Headset",
+      "title": { "en": "Technical Support", "ar": "الدعم الفني" },
+      "description": {
+        "en": "Direct access to the team that installed your equipment for troubleshooting and technical questions.",
+        "ar": "تواصل مباشر مع الفريق الذي قام بتركيب جهازكم لاستكشاف الأعطال والاستفسارات الفنية."
+      },
+      "ctaType": "technical-support"
+    },
+    {
+      "icon": "Building2",
+      "title": { "en": "Hospital Consultation", "ar": "استشارات المستشفيات" },
+      "description": {
+        "en": "Guidance on matching EMC's portfolio to your facility's clinical needs and existing equipment.",
+        "ar": "إرشاد لمطابقة محفظة إكسلنس ميديكال كير مع الاحتياجات السريرية لمنشأتكم والأجهزة الحالية لديها."
+      }
+    },
+    {
+      "icon": "FileText",
+      "title": { "en": "Tender Support", "ar": "دعم المنافسات" },
+      "description": {
+        "en": "Documentation and technical specifications to support your facility's tender and procurement process.",
+        "ar": "توثيق ومواصفات فنية لدعم عملية المنافسات والمشتريات في منشأتكم."
+      },
+      "ctaType": "tender-support"
+    }
+  ]
+}

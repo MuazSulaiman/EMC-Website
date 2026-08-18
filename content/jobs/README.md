@@ -1,0 +1,1 @@
+One JSON file per open role, validated against `content/schemas/job.ts`. Empty until EMC supplies open positions — the Careers page renders a "No open positions right now — join our Talent Network" empty state (Section 9.9), not fabricated listings.

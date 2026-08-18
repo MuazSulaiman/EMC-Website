@@ -1,0 +1,43 @@
+{
+  "slug": "flexible-bronchoscope",
+  "name": "Flexible Bronchoscope",
+  "manufacturer": "ue-medical",
+  "businessUnit": "Airway Management",
+  "clinicalSpecialty": ["airway-management", "anesthesia"],
+  "category": "Bronchoscope",
+  "shortDescription": {
+    "en": "A flexible bronchoscope available in single-use and reusable variants, compatible with the shared UE monitor.",
+    "ar": "منظار قصبات مرن متوفر بنسختين للاستخدام الواحد وقابلة لإعادة الاستخدام، متوافق مع شاشة UE المشتركة."
+  },
+  "gallery": [],
+  "clinicalApplications": {
+    "en": "Supports flexible bronchoscopy for airway assessment, difficult airway management, and pulmonary procedures where a single-use device is preferred for infection control, or a reusable device fits the facility's existing reprocessing workflow.",
+    "ar": "يدعم تنظير القصبات المرن لتقييم مجرى الهواء، وإدارة مجرى الهواء الصعب، والإجراءات الرئوية، حيث يُفضّل الجهاز أحادي الاستخدام لمكافحة العدوى، أو الجهاز القابل لإعادة الاستخدام بما يتناسب مع سير العمل الحالي لإعادة المعالجة في المنشأة."
+  },
+  "keyFeatures": [
+    { "en": "Available in single-use and reusable variants", "ar": "متوفر بنسختين للاستخدام الواحد وقابلة لإعادة الاستخدام" },
+    { "en": "Compatible with the UE Integrated Airway Management Platform monitor", "ar": "متوافق مع شاشة منصة UE المتكاملة لإدارة مجرى الهواء" }
+  ],
+  "keyBenefits": [
+    {
+      "en": "A single-use option removes reprocessing steps between cases where infection control is the priority.",
+      "ar": "يزيل الخيار أحادي الاستخدام خطوات إعادة المعالجة بين الحالات في الأماكن التي تكون فيها مكافحة العدوى أولوية."
+    },
+    {
+      "en": "A reusable option fits facilities with an existing bronchoscope reprocessing workflow.",
+      "ar": "يناسب الخيار القابل لإعادة الاستخدام المنشآت التي لديها سير عمل قائم لإعادة معالجة مناظير القصبات."
+    }
+  ],
+  "technicalSpecs": [
+    { "label": { "en": "Variants", "ar": "الأنواع" }, "value": { "en": "Single-use, Reusable", "ar": "أحادي الاستخدام، قابل لإعادة الاستخدام" } },
+    {
+      "label": { "en": "Compatibility", "ar": "التوافق" },
+      "value": { "en": "UE Integrated Airway Management Platform monitor", "ar": "شاشة منصة UE المتكاملة لإدارة مجرى الهواء" }
+    }
+  ],
+  "accessories": [],
+  "compatibleProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask"],
+  "certificates": [],
+  "videos": [],
+  "relatedProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask"]
+}

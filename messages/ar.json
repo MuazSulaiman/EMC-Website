@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "solutions": "الحلول",
+    "products": "المنتجات",
+    "partners": "الشركاء",
+    "whyEmc": "لماذا EMC",
+    "services": "الخدمات",
+    "knowledgeCenter": "مركز المعرفة",
+    "about": "من نحن",
+    "careers": "الوظائف",
+    "contact": "تواصل معنا",
+    "browseAllProducts": "تصفح جميع المنتجات",
+    "solutionsMenu": {
+      "airwayManagement": "إدارة مجرى الهواء",
+      "anesthesia": "التخدير",
+      "criticalCare": "الرعاية الحرجة",
+      "respiratoryCare": "الرعاية التنفسية",
+      "orthopedics": "جراحة العظام",
+      "infectionControl": "مكافحة العدوى"
+    },
+    "partnersMenu": {
+      "ueMedical": "UE Medical",
+      "oxyPharm": "OXY'PHARM",
+      "longLifeSurgical": "Long Life Surgical Industries",
+      "beneCareMedical": "BeneCare Medical",
+      "ortholand": "Ortholand"
+    }
+  },
+  "cta": {
+    "requestDemo": "اطلب عرضاً توضيحياً",
+    "requestQuotation": "اطلب عرض سعر",
+    "speakWithSpecialist": "تحدث مع أخصائي منتج",
+    "downloadBrochure": "تحميل الكتيب",
+    "contactEmc": "تواصل مع EMC",
+    "exploreSolutions": "استكشف حلولنا"
+  },
+  "footer": {
+    "tagline": "شريككم في التقنية الطبية والحلول الطبية في المملكة العربية السعودية ودول الخليج.",
+    "quickLinks": "روابط سريعة",
+    "legal": "الشؤون القانونية",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfUse": "شروط الاستخدام",
+    "cookiePolicy": "سياسة ملفات الارتباط",
+    "sitemap": "خريطة الموقع",
+    "followUs": "تابعنا",
+    "contactInfo": "معلومات التواصل",
+    "rightsReserved": "جميع الحقوق محفوظة."
+  },
+  "partners": {
+    "establishedLabel": "تأسست عام"
+  },
+  "products": {
+    "category": "الفئة",
+    "family": "العائلة",
+    "model": "الطراز",
+    "businessUnit": "وحدة الأعمال",
+    "clinicalApplications": "التطبيقات السريرية",
+    "keyBenefits": "أبرز الفوائد",
+    "features": "المزايا",
+    "technicalSpecs": "المواصفات الفنية",
+    "certificates": "الشهادات",
+    "downloads": "التنزيلات",
+    "ifu": "تعليمات الاستخدام",
+    "relatedProducts": "منتجات ذات صلة",
+    "manufacturedBy": "الشركة المصنّعة"
+  },
+  "about": {
+    "vision": "الرؤية",
+    "mission": "الرسالة",
+    "coreValues": "القيم الأساسية",
+    "leadership": "القيادة"
+  },
+  "legal": {
+    "reviewNotice": "هذه الصفحة مسودة عامة ولم تخضع بعد لمراجعة المستشار القانوني لدى إكسلنس ميديكال كير. سيتم اعتمادها بشكل نهائي قبل إطلاق الموقع."
+  },
+  "knowledgeCenter": {
+    "types": {
+      "article": "مقال",
+      "case-study": "دراسة حالة",
+      "white-paper": "ورقة بيضاء",
+      "news": "أخبار",
+      "event": "فعالية",
+      "workshop": "ورشة عمل"
+    },
+    "emptyTitle": "المحتوى في الطريق إليكم",
+    "emptyBody": "نعمل حالياً على إعداد المقالات السريرية ودراسات الحالة وقوائم الفعاليات — تابعونا قريباً."
+  },
+  "careers": {
+    "emptyTitle": "لا توجد وظائف شاغرة حالياً",
+    "emptyBody": "لا توجد لدينا وظائف شاغرة في الوقت الحالي، لكننا نودّ التعرف عليكم.",
+    "joinTalentNetwork": "انضم إلى شبكة المواهب لدينا",
+    "cultureTitle": "العمل في EMC",
+    "applicationTitle": "طلب الانضمام إلى شبكة المواهب",
+    "applicationIntro": "أخبرونا قليلاً عن أنفسكم — سنتواصل معكم عند توفر فرصة مناسبة.",
+    "linkedinUrl": "الملف الشخصي على LinkedIn",
+    "position": "الوظيفة محل الاهتمام",
+    "positionPlaceholder": "اهتمام عام",
+    "cv": "السيرة الذاتية",
+    "cvHelp": "ملف PDF أو Word، بحد أقصى 5 ميجابايت."
+  },
+  "forms": {
+    "genericError": "حدث خطأ ما. يُرجى المحاولة مرة أخرى أو التواصل معنا مباشرة.",
+    "successTitle": "تم استلام طلبكم",
+    "successBody": "شكراً لكم — سيتواصل فريقنا معكم قريباً.",
+    "demoRequestIntro": "أخبرونا عن منشأتكم وسنقوم بترتيب عرض توضيحي مع أخصائي.",
+    "quoteRequestIntro": "شاركونا بعض التفاصيل وسيتواصل معكم فريقنا بعرض السعر.",
+    "fullName": "الاسم الكامل",
+    "name": "الاسم",
+    "organization": "المنشأة",
+    "jobTitle": "المسمى الوظيفي",
+    "department": "القسم",
+    "city": "المدينة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "mobile": "الجوال",
+    "message": "الرسالة",
+    "preferredContactMethod": "طريقة التواصل المفضلة",
+    "productOrSolutionOfInterest": "المنتج أو الحل محل الاهتمام",
+    "contactMethods": {
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "whatsapp": "واتساب"
+    },
+    "contactPerson": "الشخص المسؤول بالتواصل",
+    "product": "المنتج",
+    "quantity": "الكمية",
+    "procurementType": "نوع الشراء",
+    "procurementTypes": {
+      "tender": "منافسة",
+      "direct": "شراء مباشر"
+    },
+    "inquiryType": "نوع الاستفسار",
+    "inquiryTypes": {
+      "general": "الشؤون المؤسسية",
+      "sales": "المبيعات",
+      "technical-support": "الدعم الفني",
+      "demo-request": "طلب عرض توضيحي"
+    },
+    "submit": "إرسال"
+  },
+  "common": {
+    "backToTop": "العودة إلى الأعلى",
+    "whatsapp": "تواصل عبر واتساب",
+    "search": "بحث",
+    "searchPlaceholder": "ابحث عن المنتجات والحلول والمقالات…",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "comingSoon": "قريباً",
+    "pendingConfirmation": "قيد التأكيد",
+    "noResults": "لا توجد منتجات مطابقة لعوامل التصفية.",
+    "overview": "نظرة عامة",
+    "learnMore": "اعرف المزيد",
+    "viewAll": "عرض الكل",
+    "language": "اللغة",
+    "switchLanguage": "English",
+    "breadcrumbHome": "الرئيسية"
+  }
+}
