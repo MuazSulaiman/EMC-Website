@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/validate-content-refs.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "validate:content": "node scripts/validate-content-refs.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
