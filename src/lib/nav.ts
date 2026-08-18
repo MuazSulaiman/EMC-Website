@@ -5,6 +5,7 @@
 export type NavItem = {
   labelKey: string;
   href: string;
+  icon?: string;
 };
 
 export type MegaMenuGroup = {
@@ -17,14 +18,22 @@ export const solutionsMenu: MegaMenuGroup = {
   labelKey: "nav.solutions",
   href: "/solutions",
   items: [
-    { labelKey: "nav.solutionsMenu.airwayManagement", href: "/solutions/airway-management" },
-    { labelKey: "nav.solutionsMenu.anesthesia", href: "/solutions/anesthesia" },
-    { labelKey: "nav.solutionsMenu.criticalCare", href: "/solutions/critical-care" },
-    { labelKey: "nav.solutionsMenu.respiratoryCare", href: "/solutions/respiratory-care" },
-    { labelKey: "nav.solutionsMenu.orthopedics", href: "/solutions/orthopedics" },
-    { labelKey: "nav.solutionsMenu.infectionControl", href: "/solutions/infection-control" },
+    { labelKey: "nav.solutionsMenu.airwayManagement", href: "/solutions/airway-management", icon: "Wind" },
+    { labelKey: "nav.solutionsMenu.anesthesia", href: "/solutions/anesthesia", icon: "Syringe" },
+    { labelKey: "nav.solutionsMenu.criticalCare", href: "/solutions/critical-care", icon: "HeartPulse" },
+    { labelKey: "nav.solutionsMenu.respiratoryCare", href: "/solutions/respiratory-care", icon: "Activity" },
+    { labelKey: "nav.solutionsMenu.orthopedics", href: "/solutions/orthopedics", icon: "Bone" },
+    { labelKey: "nav.solutionsMenu.infectionControl", href: "/solutions/infection-control", icon: "ShieldCheck" },
   ],
 };
+
+// Reused by ProductCard (src/components/sections/product-card.tsx) to badge
+// a product with its clinical specialty's icon — same source of truth as
+// the mega-menu above, keyed by solution slug (the last path segment of
+// each item's href).
+export const solutionIcons: Record<string, string> = Object.fromEntries(
+  solutionsMenu.items.map((item) => [item.href.split("/").pop()!, item.icon!]),
+);
 
 export const partnersMenu: MegaMenuGroup = {
   labelKey: "nav.partners",

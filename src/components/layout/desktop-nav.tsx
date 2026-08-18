@@ -11,6 +11,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { DynamicIcon } from "@/components/ui/dynamic-icon";
 import { cn } from "@/lib/utils";
 import { primaryNav, solutionsMenu, partnersMenu } from "@/lib/nav";
 
@@ -75,6 +76,11 @@ function MegaMenuItem({
           {group.items.map((item) => (
             <li key={item.href}>
               <NavigationMenuLink render={<Link href={item.href} />}>
+                {item.icon && (
+                  <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-lg bg-emc-teal-100 text-emc-purple-700">
+                    <DynamicIcon name={item.icon} className="size-4" aria-hidden="true" />
+                  </span>
+                )}
                 {t(item.labelKey)}
               </NavigationMenuLink>
             </li>
