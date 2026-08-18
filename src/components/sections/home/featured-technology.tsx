@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/motion/reveal";
+import { StatCounter } from "@/components/ui/stat-counter";
 
 export function FeaturedTechnology({
   eyebrow,
@@ -15,7 +16,7 @@ export function FeaturedTechnology({
   headline: string;
   body: string;
   imageAlt: string;
-  facts: { label: string; value: string }[];
+  facts: { label: string; value: number; suffix: string }[];
 }) {
   const t = useTranslations();
 
@@ -47,8 +48,8 @@ export function FeaturedTechnology({
             {facts.map((fact) => (
               <div key={fact.label}>
                 <dt className="text-xs text-muted-foreground">{fact.label}</dt>
-                <dd className="ltr-embed mt-1 text-xl font-heading font-bold text-emc-purple-700">
-                  {fact.value}
+                <dd className="mt-1 text-xl font-heading font-bold text-emc-purple-700">
+                  <StatCounter value={fact.value} suffix={fact.suffix} />
                 </dd>
               </div>
             ))}

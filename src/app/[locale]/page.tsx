@@ -91,7 +91,8 @@ export default async function HomePage({
         imageAlt={l(content.featuredTechnology.imageAlt)}
         facts={content.featuredTechnology.facts.map((fact) => ({
           label: l(fact.label),
-          value: l(fact.value),
+          value: fact.value,
+          suffix: l(fact.suffix),
         }))}
       />
 

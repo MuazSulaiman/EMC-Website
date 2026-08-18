@@ -47,15 +47,18 @@
     "facts": [
       {
         "label": { "en": "Hospitals worldwide using UE Medical products", "ar": "مستشفى حول العالم يستخدم منتجات UE Medical" },
-        "value": { "en": "11,000+", "ar": "+11,000" }
+        "value": 11000,
+        "suffix": { "en": "+", "ar": "+" }
       },
       {
         "label": { "en": "Countries and regions served", "ar": "دولة ومنطقة تخدمها الشركة" },
-        "value": { "en": "70+", "ar": "+70" }
+        "value": 70,
+        "suffix": { "en": "+", "ar": "+" }
       },
       {
         "label": { "en": "Onboard storage for teaching & traceability", "ar": "سعة تخزين داخلية للتدريب والتتبع" },
-        "value": { "en": "64GB", "ar": "64 جيجابايت" }
+        "value": 64,
+        "suffix": { "en": "GB", "ar": " جيجابايت" }
       }
     ]
   },

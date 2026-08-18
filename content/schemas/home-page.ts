@@ -23,7 +23,11 @@ export const homePageSchema = z.object({
     body: localizedStringSchema,
     imageAlt: localizedStringSchema,
     facts: z.array(
-      z.object({ label: localizedStringSchema, value: localizedStringSchema }),
+      z.object({
+        label: localizedStringSchema,
+        value: z.number(),
+        suffix: localizedStringSchema,
+      }),
     ),
   }),
   partnersBand: z.object({
