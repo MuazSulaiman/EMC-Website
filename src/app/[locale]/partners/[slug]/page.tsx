@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { ExternalLink } from "lucide-react";
@@ -110,11 +111,23 @@ export default async function PartnerDetailPage({
             )}
           </Reveal>
           <Reveal delay={0.1}>
-            <GradientMesh className="aspect-[4/3] w-full">
-              <span className="px-6 text-center font-heading text-3xl font-bold text-white/90 sm:text-4xl">
-                {partner.name}
-              </span>
-            </GradientMesh>
+            {partner.logo ? (
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border bg-card">
+                <Image
+                  src={partner.logo.src}
+                  alt={l(partner.logo.alt)}
+                  fill
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  className="object-contain p-10"
+                />
+              </div>
+            ) : (
+              <GradientMesh className="aspect-[4/3] w-full">
+                <span className="px-6 text-center font-heading text-3xl font-bold text-white/90 sm:text-4xl">
+                  {partner.name}
+                </span>
+              </GradientMesh>
+            )}
           </Reveal>
         </div>
       </section>

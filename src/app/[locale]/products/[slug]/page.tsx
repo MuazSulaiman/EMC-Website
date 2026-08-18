@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { FileDown } from "lucide-react";
@@ -18,6 +19,7 @@ import { GradientMesh } from "@/components/sections/gradient-mesh";
 import { CtaBand } from "@/components/sections/cta-band";
 import { ProductCard } from "@/components/sections/product-card";
 import { TechSpecsTable } from "@/components/sections/products/tech-specs";
+import { ProductVideo } from "@/components/sections/products/product-video";
 import { DemoRequestModal } from "@/components/layout/demo-request-modal";
 import { buildMetadata, buildProductJsonLd, JsonLd, truncateDescription } from "@/lib/seo";
 
@@ -119,10 +121,65 @@ export default async function ProductDetailPage({
             </div>
           </Reveal>
           <Reveal delay={0.1}>
-            <GradientMesh className="aspect-[4/3] w-full" />
+            {product.heroImage ? (
+              <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-border bg-card">
+                <Image
+                  src={product.heroImage.src}
+                  alt={l(product.heroImage.alt)}
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  className="object-contain p-6"
+                />
+              </div>
+            ) : (
+              <GradientMesh className="aspect-[4/3] w-full" />
+            )}
           </Reveal>
         </div>
       </section>
+
+      {product.gallery.length > 0 && (
+        <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-4 sm:px-6 lg:px-8">
+          <Reveal>
+            <h2 className="text-2xl font-heading font-bold text-foreground">
+              {t("products.gallery")}
+            </h2>
+          </Reveal>
+          <RevealGroup className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {product.gallery.map((image, i) => (
+              <Reveal key={image.src} delay={i * 0.05}>
+                <div className="relative aspect-square overflow-hidden rounded-2xl border border-border bg-card">
+                  <Image
+                    src={image.src}
+                    alt={l(image.alt)}
+                    fill
+                    sizes="(min-width: 1024px) 22vw, 45vw"
+                    className="object-contain p-3"
+                  />
+                </div>
+              </Reveal>
+            ))}
+          </RevealGroup>
+        </section>
+      )}
+
+      {product.videos.length > 0 && (
+        <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-4 sm:px-6 lg:px-8">
+          <Reveal>
+            <h2 className="text-2xl font-heading font-bold text-foreground">
+              {t("products.videos")}
+            </h2>
+          </Reveal>
+          <RevealGroup className="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2">
+            {product.videos.map((video, i) => (
+              <Reveal key={video.src} delay={i * 0.05}>
+                <ProductVideo src={video.src} caption={video.caption && l(video.caption)} />
+              </Reveal>
+            ))}
+          </RevealGroup>
+        </section>
+      )}
 
       <section className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
         <Reveal>
