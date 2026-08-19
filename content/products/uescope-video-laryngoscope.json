@@ -3,7 +3,7 @@
   "name": "UEScope Video Laryngoscope",
   "manufacturer": "ue-medical",
   "businessUnit": "Airway Management",
-  "clinicalSpecialty": ["airway-management", "anesthesia"],
+  "clinicalSpecialty": ["anesthesia-airway-management"],
   "category": "Video Laryngoscope",
   "family": "UEScope",
   "model": "VL300 / VL310",

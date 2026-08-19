@@ -12,8 +12,8 @@ A hosted headless CMS (Sanity is the recommended target) is the right long-term 
 
 | Directory | Schema | Notes |
 |---|---|---|
-| `solutions/` | `content/schemas/solution.ts` | 6 clinical categories (Section 7). `status: "expanding"` marks the ones without EMC-supplied products yet (Section 9.3). |
-| `partners/` | `content/schemas/partner.ts` | The 5 verified manufacturer partners (Section 2.1). |
+| `solutions/` | `content/schemas/solution.ts` | 5 clinical categories, replacing Section 7's original 6 — see `content/solutions/README.md` and `DECISIONS.md`. `status: "expanding"` marks any solution without EMC-supplied products yet (Section 9.3); none currently use it. |
+| `partners/` | `content/schemas/partner.ts` | 4 manufacturer partners, replacing Section 2.1's original 5 — see `content/partners/README.md` and `DECISIONS.md`. |
 | `products/` | `content/schemas/product.ts` | Seeded starting in Phase 4 with UE Medical's actual line. |
 | `news/` | `content/schemas/news.ts` | Single collection for the whole Knowledge Center — article / case-study / white-paper / news / event / workshop are all just `type` values on the same schema, per Section 9.8. (Section 5's folder tree lists a separate `case-studies/` directory; that's superseded by the unified model in Section 8.4/9.8 — see DECISIONS.md.) |
 | `jobs/` | `content/schemas/job.ts` | Empty until EMC supplies open roles; Careers page renders a "join our Talent Network" empty state. |

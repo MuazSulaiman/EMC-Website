@@ -3,16 +3,16 @@
     "eyebrow": { "en": "Our Solutions", "ar": "حلولنا" },
     "headline": { "en": "Clinical Solutions", "ar": "الحلول السريرية" },
     "body": {
-      "en": "Six clinical categories, each built around a real manufacturer partnership rather than a catalog of unrelated products. Every solution links to the products and partner behind it.",
-      "ar": "ست فئات سريرية، كل منها مبنية على شراكة حقيقية مع شركة مصنعة، وليست مجرد كتالوج لمنتجات غير مترابطة. يرتبط كل حل بالمنتجات والشريك الذي يقف خلفه."
+      "en": "Five clinical categories, each built around a real manufacturer partnership rather than a catalog of unrelated products. Every solution links to the products and partner behind it.",
+      "ar": "خمس فئات سريرية، كل منها مبنية على شراكة حقيقية مع شركة مصنعة، وليست مجرد كتالوج لمنتجات غير مترابطة. يرتبط كل حل بالمنتجات والشريك الذي يقف خلفه."
     }
   },
   "partnersIndex": {
     "eyebrow": { "en": "Our Partners", "ar": "شركاؤنا" },
     "headline": { "en": "Manufacturer Partners", "ar": "الشركاء المصنّعون" },
     "body": {
-      "en": "EMC represents five specialist manufacturers in Saudi Arabia and the Gulf. Each partner page covers what they make, where their technology fits, and how to reach their team through EMC.",
-      "ar": "تمثل إكسلنس ميديكال كير خمس شركات مصنعة متخصصة في المملكة العربية السعودية ودول الخليج. توضح صفحة كل شريك ما تصنعه الشركة، وأين تتناسب تقنيتها، وكيفية التواصل مع فريقها عبر إكسلنس ميديكال كير."
+      "en": "EMC represents four specialist manufacturers in Saudi Arabia and the Gulf. Each partner page covers what they make, where their technology fits, and how to reach their team through EMC.",
+      "ar": "تمثل إكسلنس ميديكال كير أربع شركات مصنعة متخصصة في المملكة العربية السعودية ودول الخليج. توضح صفحة كل شريك ما تصنعه الشركة، وأين تتناسب تقنيتها، وكيفية التواصل مع فريقها عبر إكسلنس ميديكال كير."
     }
   },
   "productsIndex": {

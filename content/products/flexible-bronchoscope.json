@@ -3,7 +3,7 @@
   "name": "Flexible Bronchoscope",
   "manufacturer": "ue-medical",
   "businessUnit": "Airway Management",
-  "clinicalSpecialty": ["airway-management", "anesthesia"],
+  "clinicalSpecialty": ["anesthesia-airway-management"],
   "category": "Bronchoscope",
   "shortDescription": {
     "en": "A flexible bronchoscope available in single-use and reusable variants, compatible with the shared UE monitor.",

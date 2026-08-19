@@ -1,0 +1,11 @@
+{
+  "slug": "dallah-health",
+  "name": "Dallah Health",
+  "logo": {
+    "src": "/media/customers/dallah-health-logo.jpg",
+    "alt": {
+      "en": "Dallah Health logo",
+      "ar": "شعار دله للخدمات الصحية"
+    }
+  }
+}

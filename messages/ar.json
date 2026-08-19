@@ -12,19 +12,17 @@
     "contact": "تواصل معنا",
     "browseAllProducts": "تصفح جميع المنتجات",
     "solutionsMenu": {
-      "airwayManagement": "إدارة مجرى الهواء",
-      "anesthesia": "التخدير",
-      "criticalCare": "الرعاية الحرجة",
+      "anesthesiaAirwayManagement": "التخدير وإدارة مجرى الهواء",
       "respiratoryCare": "الرعاية التنفسية",
-      "orthopedics": "جراحة العظام",
-      "infectionControl": "مكافحة العدوى"
+      "criticalCare": "الرعاية الحرجة",
+      "emergencyAccidental": "الطوارئ والحوادث",
+      "nursingGeneralConsumables": "التمريض والمستلزمات العامة"
     },
     "partnersMenu": {
       "ueMedical": "UE Medical",
-      "oxyPharm": "OXY'PHARM",
       "longLifeSurgical": "Long Life Surgical Industries",
-      "beneCareMedical": "BeneCare Medical",
-      "ortholand": "Ortholand"
+      "frestems": "Frestems",
+      "ameco": "AMECO Technology"
     }
   },
   "cta": {

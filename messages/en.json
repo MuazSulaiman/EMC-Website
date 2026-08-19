@@ -12,19 +12,17 @@
     "contact": "Contact",
     "browseAllProducts": "Browse All Products",
     "solutionsMenu": {
-      "airwayManagement": "Airway Management",
-      "anesthesia": "Anesthesia",
-      "criticalCare": "Critical Care",
+      "anesthesiaAirwayManagement": "Anesthesia & Airway Management",
       "respiratoryCare": "Respiratory Care",
-      "orthopedics": "Orthopedics",
-      "infectionControl": "Infection Control"
+      "criticalCare": "Critical Care",
+      "emergencyAccidental": "Emergency & Accidental",
+      "nursingGeneralConsumables": "Nursing & General Consumables"
     },
     "partnersMenu": {
       "ueMedical": "UE Medical",
-      "oxyPharm": "OXY'PHARM",
       "longLifeSurgical": "Long Life Surgical Industries",
-      "beneCareMedical": "BeneCare Medical",
-      "ortholand": "Ortholand"
+      "frestems": "Frestems",
+      "ameco": "AMECO Technology"
     }
   },
   "cta": {

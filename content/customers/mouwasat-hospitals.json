@@ -1,0 +1,11 @@
+{
+  "slug": "mouwasat-hospitals",
+  "name": "Mouwasat Hospitals",
+  "logo": {
+    "src": "/media/customers/mouwasat-hospitals-logo.svg",
+    "alt": {
+      "en": "Mouwasat Hospitals logo",
+      "ar": "شعار مستشفيات المواساة"
+    }
+  }
+}

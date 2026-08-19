@@ -1,0 +1,16 @@
+{
+  "slug": "nursing-general-consumables",
+  "name": { "en": "Nursing & General Consumables", "ar": "التمريض والمستلزمات العامة" },
+  "shortDescription": {
+    "en": "Everyday consumables and general-ward essentials that keep nursing teams equipped, efficient, and infection-safe.",
+    "ar": "مستلزمات يومية وأساسيات عامة للأجنحة تبقي فرق التمريض مجهزة وفعّالة وآمنة من العدوى."
+  },
+  "clinicalOverview": {
+    "en": "Behind every successful procedure is a well-stocked, dependable supply of general consumables. EMC's nursing range covers everyday essentials that support infection control, patient comfort, and ward efficiency — single-use protective and procedural consumables, general-ward disposables, and compatible accessories such as disposable blades, sheaths, and covers for our video laryngoscope and bronchoscope platforms. Sourced from trusted partners including UE Medical and Long Life Surgical to ISO 13485/CE-MDR standards, our consumables stay cost-effective for high-volume ward use, helping hospitals manage clinical risk and procurement budgets together. AMECO Technology (Egypt, ISO 13485/CE certified) broadens this range with disposable oxygen therapy, aerosol therapy, and tubing/accessory lines.",
+    "ar": "خلف كل إجراء ناجح يقف مخزون موثوق وجيد التجهيز من المستلزمات العامة. تغطي مجموعة التمريض لدى إكسلنس ميديكال كير الأساسيات اليومية التي تدعم مكافحة العدوى وراحة المريض وكفاءة الجناح — مستلزمات وقائية وإجرائية أحادية الاستخدام، ومستهلكات عامة للأجنحة، وملحقات متوافقة مثل النصال والأغلفة والأكياس الواقية لمنصات تنظير الحنجرة بالفيديو ومناظير القصبات لدينا. تُستقدم هذه المستلزمات من شركاء موثوقين من بينهم UE Medical وLong Life Surgical وفق معايير ISO 13485/CE-MDR، وتبقى فعّالة من حيث التكلفة للاستخدام المكثف في الأجنحة، بما يساعد المستشفيات على إدارة المخاطر السريرية وميزانيات الشراء معاً. كما توسّع AMECO Technology (مصر، حاصلة على شهادتي ISO 13485 وCE) هذه المجموعة بخطوط علاج بالأكسجين والإرذاذ والأنابيب والملحقات أحادية الاستخدام."
+  },
+  "relatedProductSlugs": [],
+  "relatedPartnerSlugs": ["ue-medical", "long-life-surgical-industries", "ameco-technology"],
+  "icon": "Package",
+  "status": "active"
+}

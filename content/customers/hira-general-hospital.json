@@ -1,0 +1,11 @@
+{
+  "slug": "hira-general-hospital",
+  "name": "Hira General Hospital — Makkah",
+  "logo": {
+    "src": "/media/customers/makkah-health-cluster-logo.png",
+    "alt": {
+      "en": "Makkah Health Cluster logo",
+      "ar": "شعار تجمع مكة المكرمة الصحي"
+    }
+  }
+}

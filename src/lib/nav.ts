@@ -18,12 +18,11 @@ export const solutionsMenu: MegaMenuGroup = {
   labelKey: "nav.solutions",
   href: "/solutions",
   items: [
-    { labelKey: "nav.solutionsMenu.airwayManagement", href: "/solutions/airway-management", icon: "Wind" },
-    { labelKey: "nav.solutionsMenu.anesthesia", href: "/solutions/anesthesia", icon: "Syringe" },
-    { labelKey: "nav.solutionsMenu.criticalCare", href: "/solutions/critical-care", icon: "HeartPulse" },
+    { labelKey: "nav.solutionsMenu.anesthesiaAirwayManagement", href: "/solutions/anesthesia-airway-management", icon: "Wind" },
     { labelKey: "nav.solutionsMenu.respiratoryCare", href: "/solutions/respiratory-care", icon: "Activity" },
-    { labelKey: "nav.solutionsMenu.orthopedics", href: "/solutions/orthopedics", icon: "Bone" },
-    { labelKey: "nav.solutionsMenu.infectionControl", href: "/solutions/infection-control", icon: "ShieldCheck" },
+    { labelKey: "nav.solutionsMenu.criticalCare", href: "/solutions/critical-care", icon: "HeartPulse" },
+    { labelKey: "nav.solutionsMenu.emergencyAccidental", href: "/solutions/emergency-accidental", icon: "Ambulance" },
+    { labelKey: "nav.solutionsMenu.nursingGeneralConsumables", href: "/solutions/nursing-general-consumables", icon: "Package" },
   ],
 };
 
@@ -40,10 +39,9 @@ export const partnersMenu: MegaMenuGroup = {
   href: "/partners",
   items: [
     { labelKey: "nav.partnersMenu.ueMedical", href: "/partners/ue-medical" },
-    { labelKey: "nav.partnersMenu.oxyPharm", href: "/partners/oxy-pharm" },
     { labelKey: "nav.partnersMenu.longLifeSurgical", href: "/partners/long-life-surgical-industries" },
-    { labelKey: "nav.partnersMenu.beneCareMedical", href: "/partners/benecare-medical" },
-    { labelKey: "nav.partnersMenu.ortholand", href: "/partners/ortholand" },
+    { labelKey: "nav.partnersMenu.frestems", href: "/partners/frestems" },
+    { labelKey: "nav.partnersMenu.ameco", href: "/partners/ameco-technology" },
   ],
 };
 

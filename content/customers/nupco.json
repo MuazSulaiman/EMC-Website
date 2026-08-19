@@ -1,0 +1,11 @@
+{
+  "slug": "nupco",
+  "name": "National Unified Procurement Company (NUPCO)",
+  "logo": {
+    "src": "/media/customers/nupco-logo.png",
+    "alt": {
+      "en": "NUPCO logo",
+      "ar": "شعار نوبكو"
+    }
+  }
+}

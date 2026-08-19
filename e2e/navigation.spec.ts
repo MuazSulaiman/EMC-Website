@@ -24,16 +24,17 @@ test.describe("Primary navigation", () => {
     await trigger.press("Enter");
 
     // exact:true disambiguates from the home page's own SolutionsGrid card,
-    // whose accessible name is the longer "Airway Management Video…" — only
-    // the mega-menu's own link is named exactly "Airway Management".
-    const airwayLink = page.getByRole("link", { name: "Airway Management", exact: true });
+    // whose accessible name is the longer "Anesthesia & Airway Management
+    // Video…" — only the mega-menu's own link is named exactly "Anesthesia &
+    // Airway Management".
+    const airwayLink = page.getByRole("link", { name: "Anesthesia & Airway Management", exact: true });
     await expect(airwayLink).toBeVisible();
     await airwayLink.click();
-    await expect(page).toHaveURL(/\/en\/solutions\/airway-management$/);
+    await expect(page).toHaveURL(/\/en\/solutions\/anesthesia-airway-management$/);
   });
 
   test("breadcrumb on an interior page links back to its section index", async ({ page }) => {
-    await page.goto("/en/solutions/airway-management");
+    await page.goto("/en/solutions/anesthesia-airway-management");
     const breadcrumb = page.getByRole("navigation", { name: /breadcrumb/i });
     await expect(breadcrumb).toBeVisible();
     await breadcrumb.getByRole("link", { name: "Solutions" }).click();

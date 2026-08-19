@@ -1,0 +1,11 @@
+{
+  "slug": "al-hada-armed-forces-hospital",
+  "name": "Al Hada Armed Forces Hospital",
+  "logo": {
+    "src": "/media/customers/taif-armed-forces-hospitals-logo.png",
+    "alt": {
+      "en": "Taif Armed Forces Hospitals logo",
+      "ar": "شعار مستشفيات القوات المسلحة بمنطقة الطائف"
+    }
+  }
+}

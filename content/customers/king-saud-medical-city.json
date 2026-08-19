@@ -1,0 +1,11 @@
+{
+  "slug": "king-saud-medical-city",
+  "name": "King Saud Medical City",
+  "logo": {
+    "src": "/media/customers/king-saud-medical-city-logo.svg",
+    "alt": {
+      "en": "King Saud Medical City logo",
+      "ar": "شعار مدينة الملك سعود الطبية"
+    }
+  }
+}

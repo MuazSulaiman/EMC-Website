@@ -1,0 +1,16 @@
+{
+  "slug": "emergency-accidental",
+  "name": { "en": "Emergency & Accidental", "ar": "الطوارئ والحوادث" },
+  "shortDescription": {
+    "en": "Rugged, field-ready emergency medical equipment engineered for speed, durability, and reliability outside the hospital walls.",
+    "ar": "معدات طوارئ طبية متينة وجاهزة للميدان، مصممة للسرعة والمتانة والموثوقية خارج أسوار المستشفى."
+  },
+  "clinicalOverview": {
+    "en": "Prehospital care happens in conditions the OR never faces — confined ambulance cabins, poor lighting, moving vehicles, and mass-casualty scenes. Through our partnership with Frestems (Finland), EMC supplies lightweight carbon-fiber ambulance stretchers like the Ergomy Carbon, with adjustable chair and shock positions and full compatibility with power-assisted loading systems, crash-tested to EN 1789:2020. Alongside transport, UE Medical's portable, cordless video laryngoscopes offer anti-fogging disposable blades and auto-recording, helping first responders secure difficult airways reliably, from the roadside to the trauma bay.",
+    "ar": "تحدث الرعاية قبل الوصول إلى المستشفى في ظروف لا تواجهها غرفة العمليات على الإطلاق — مقصورات إسعاف ضيقة، وإضاءة ضعيفة، ومركبات متحركة، ومواقع حوادث جماعية. من خلال شراكتنا مع Frestems (فنلندا)، تقدم إكسلنس ميديكال كير نقالات إسعاف خفيفة الوزن من ألياف الكربون مثل Ergomy Carbon، بوضعيات كرسي وامتصاص صدمات قابلة للتعديل، وتوافق كامل مع أنظمة التحميل المعتمدة على الطاقة، ومختبرة وفق معيار EN 1789:2020. وإلى جانب النقل، توفر أجهزة تنظير الحنجرة بالفيديو المحمولة واللاسلكية من UE Medical نصالاً أحادية الاستخدام مضادة للتغبيش وتسجيلاً تلقائياً، لمساعدة فرق الاستجابة الأولى على تأمين مجرى الهواء الصعب بموثوقية، من موقع الحادث إلى غرفة الطوارئ."
+  },
+  "relatedProductSlugs": [],
+  "relatedPartnerSlugs": ["frestems", "ue-medical"],
+  "icon": "Ambulance",
+  "status": "active"
+}

@@ -2,15 +2,15 @@
   "slug": "respiratory-care",
   "name": { "en": "Respiratory Care", "ar": "الرعاية التنفسية" },
   "shortDescription": {
-    "en": "Portfolio expanding — speak with our team about upcoming respiratory care technologies.",
-    "ar": "المحفظة قيد التوسع — تواصلوا مع فريقنا لمعرفة المزيد عن تقنيات الرعاية التنفسية القادمة."
+    "en": "Diagnostic and therapeutic respiratory technology that supports every stage of pulmonary care, from bedside screening to advanced bronchoscopy.",
+    "ar": "تقنيات تشخيصية وعلاجية للرعاية التنفسية تدعم كل مراحل رعاية الرئة، من الفحص عند السرير إلى تنظير القصبات المتقدم."
   },
   "clinicalOverview": {
-    "en": "EMC is expanding its portfolio into respiratory care technology. We don't yet have EMC-supplied products to list in this category — rather than describe capabilities we can't substantiate, we're keeping this page honest until a partnership is confirmed. Speak with our team if respiratory care is a priority for your facility.",
-    "ar": "تعمل إكسلنس ميديكال كير على توسيع محفظتها لتشمل تقنيات الرعاية التنفسية. لا تتوفر لدينا حالياً منتجات مؤكدة من إكسلنس ميديكال كير لإدراجها ضمن هذه الفئة — وبدلاً من وصف إمكانيات لا يمكننا إثباتها، نفضل أن تبقى هذه الصفحة صادقة إلى حين تأكيد شراكة جديدة. تواصلوا مع فريقنا إذا كانت الرعاية التنفسية من أولويات منشأتكم."
+    "en": "Respiratory conditions demand tools that are diagnostically precise and therapeutically gentle. EMC's respiratory care solution centers on UE Medical's flexible video bronchoscopes, sharing our airway platform's unified monitor system for high-definition inspection, sampling, and secretion clearance during bronchoalveolar lavage and biopsy. Beyond bronchoscopy, our range supports oxygen therapy and pulmonary monitoring across wards, step-down units, and outpatient clinics, with reusable and single-use options selected for infection control and compatibility with existing hospital monitor infrastructure, helping respiratory therapists and pulmonologists standardize equipment across departments.",
+    "ar": "تتطلب الحالات التنفسية أدوات دقيقة تشخيصياً ولطيفة علاجياً. يرتكز حل الرعاية التنفسية لدى إكسلنس ميديكال كير على مناظير القصبات المرنة بالفيديو من UE Medical، التي تشترك في نظام شاشة المراقبة الموحّد لمنصة مجرى الهواء لتوفير فحص وأخذ عينات وتصريف إفرازات عالي الدقة أثناء غسيل القصبات الرئوية السنخي والخزعات. وإلى جانب تنظير القصبات، تدعم مجموعتنا العلاج بالأكسجين ومراقبة وظائف الرئة عبر الأجنحة ووحدات الرعاية المتوسطة والعيادات الخارجية، بخيارات قابلة لإعادة الاستخدام وأخرى أحادية الاستخدام مختارة لمكافحة العدوى والتوافق مع البنية التحتية الحالية لشاشات المراقبة في المستشفى، بما يساعد أخصائيي التنفس وأطباء الرئة على توحيد المعدات عبر الأقسام."
   },
-  "relatedProductSlugs": [],
-  "relatedPartnerSlugs": [],
+  "relatedProductSlugs": ["flexible-bronchoscope"],
+  "relatedPartnerSlugs": ["ue-medical"],
   "icon": "Activity",
-  "status": "expanding"
+  "status": "active"
 }

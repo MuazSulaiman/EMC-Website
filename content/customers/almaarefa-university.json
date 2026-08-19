@@ -1,0 +1,11 @@
+{
+  "slug": "almaarefa-university",
+  "name": "Almaarefa University",
+  "logo": {
+    "src": "/media/customers/almaarefa-university-logo.png",
+    "alt": {
+      "en": "Almaarefa University logo",
+      "ar": "شعار جامعة المعرفة"
+    }
+  }
+}
