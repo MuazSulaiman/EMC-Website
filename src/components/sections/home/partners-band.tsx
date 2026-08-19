@@ -23,7 +23,7 @@ export function PartnersBand({
             {body}
           </p>
         </Reveal>
-        <RevealGroup className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <RevealGroup className="mt-10 flex flex-wrap justify-center gap-4">
           {partners.map((partner, i) => (
             <Reveal key={partner.slug} delay={i * 0.05}>
               <PartnerTile partner={partner} />

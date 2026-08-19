@@ -57,7 +57,7 @@ export default async function PartnersIndexPage({
       </section>
 
       <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-        <RevealGroup className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+        <RevealGroup className="flex flex-wrap justify-center gap-4">
           {partners.map((partner, i) => (
             <Reveal key={partner.slug} delay={i * 0.06}>
               <PartnerTile partner={partner} />

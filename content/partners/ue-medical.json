@@ -3,6 +3,10 @@
   "name": "UE Medical",
   "country": "China",
   "foundedYear": 2010,
+  "logo": {
+    "src": "/media/partners/ue-medical-logo.png",
+    "alt": { "en": "UE Medical logo", "ar": "شعار UE Medical" }
+  },
   "summary": {
     "en": "Founded in 2010 and headquartered in Xianju, Zhejiang, China, UE Medical designs video laryngoscopes, video laryngeal masks, and flexible bronchoscopes around a shared airway management platform. The company serves 70+ countries and regions, with more than 11,000 hospitals worldwide using UE Medical products, and cooperates with 80% of top-tier hospitals in China.",
     "ar": "تأسست UE Medical عام 2010 ويقع مقرها الرئيسي في مدينة شيانجو، مقاطعة تشجيانغ بالصين، وتصمم أجهزة تنظير الحنجرة بالفيديو، والأقنعة الحنجرية البصرية، ومناظير القصبات المرنة، جميعها ضمن منصة موحدة لإدارة مجرى الهواء. تخدم الشركة أكثر من 70 دولة ومنطقة، ويستخدم منتجاتها أكثر من 11,000 مستشفى حول العالم، وتتعاون مع 80% من المستشفيات ذات المستوى الأول في الصين."
@@ -11,6 +15,18 @@
     "en": "UE Medical's Integrated Airway Management Platform runs its video laryngoscopes, video laryngeal masks, and bronchoscopes on one shared monitor — supporting split-screen multi-product display and 64GB of onboard storage for photo and video capture, which supports both clinical teaching and case traceability. The company operates 2 service centers, 3 sales centers, and 4 R&D centers with 150+ R&D engineers worldwide.",
     "ar": "تعمل منصة UE Medical المتكاملة لإدارة مجرى الهواء على تشغيل أجهزة تنظير الحنجرة بالفيديو والأقنعة الحنجرية البصرية ومناظير القصبات على شاشة مراقبة واحدة مشتركة — وتدعم عرض الشاشة المقسمة لعدة منتجات وسعة تخزين داخلية تبلغ 64 جيجابايت لالتقاط الصور والفيديو، مما يدعم كلاً من التدريب السريري وتتبع الحالات. تدير الشركة مركزين للخدمة، وثلاثة مراكز مبيعات، وأربعة مراكز بحث وتطوير، بأكثر من 150 مهندس بحث وتطوير حول العالم."
   },
-  "clinicalAreas": ["anesthesia-airway-management", "respiratory-care", "critical-care", "emergency-accidental", "nursing-general-consumables"],
-  "featuredProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask", "flexible-bronchoscope"]
+  "clinicalAreas": [
+    "anesthesia-airway-management",
+    "respiratory-care",
+    "critical-care",
+    "emergency-accidental",
+    "nursing-general-consumables"
+  ],
+  "featuredProductSlugs": [
+    "uescope-video-laryngoscope",
+    "sacovlm-video-laryngeal-mask",
+    "flexible-bronchoscope"
+  ],
+  "externalWebsite": "https://www.ueworld.com/en/",
+  "order": 1
 }

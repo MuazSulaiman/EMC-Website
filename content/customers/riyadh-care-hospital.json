@@ -1,4 +1,8 @@
 {
   "slug": "riyadh-care-hospital",
-  "name": "Riyadh Care Hospital – Riyadh"
+  "name": "Care Medical Hospital – Al Rawabi (formerly Riyadh Care Hospital)",
+  "logo": {
+    "src": "/media/customers/care-medical-hospital-al-rawabi-logo.webp",
+    "alt": { "en": "Care Medical logo", "ar": "شعار كير ميديكال" }
+  }
 }

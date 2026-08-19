@@ -9,12 +9,17 @@ import { localizedStringSchema, mediaImageSchema } from "./common";
 // doesn't mark it so — Section 2.1 only verifies country for 2 of the 5
 // partners (UE Medical: China, BeneCare Medical: UK); making it required
 // would force fabricating a country for the other 3 (see DECISIONS.md).
+// `order` is a display-priority hint (lower sorts first, undefined sorts
+// last) — Muaz asked for UE Medical/Long Life Surgical to lead the partner
+// grid rather than falling wherever the filesystem's readdir order puts
+// them (see getPartners() in src/lib/content.ts and DECISIONS.md).
 export const partnerSchema = z.object({
   slug: z.string(),
   name: z.string(),
   logo: mediaImageSchema.optional(),
   country: z.string().optional(),
   foundedYear: z.number().optional(),
+  order: z.number().optional(),
   summary: localizedStringSchema,
   technologyExpertise: localizedStringSchema,
   relationshipStatement: localizedStringSchema.default({

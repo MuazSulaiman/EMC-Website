@@ -1,4 +1,8 @@
 {
   "slug": "king-saud-university-medical-city",
-  "name": "King Saud University Medical City – Riyadh"
+  "name": "King Saud University Medical City – Riyadh",
+  "logo": {
+    "src": "/media/customers/king-saud-university-medical-city-logo.png",
+    "alt": { "en": "King Saud University Medical City logo", "ar": "شعار المدينة الطبية الجامعية لجامعة الملك سعود" }
+  }
 }

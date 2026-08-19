@@ -81,7 +81,8 @@ export async function getSolution(slug: string): Promise<Solution | undefined> {
 // ---- Partners --------------------------------------------------------------
 
 export async function getPartners(): Promise<Partner[]> {
-  return readDirAsJson("partners", partnerSchema);
+  const partners = await readDirAsJson("partners", partnerSchema);
+  return partners.sort((a, b) => (a.order ?? Infinity) - (b.order ?? Infinity));
 }
 
 export async function getPartner(slug: string): Promise<Partner | undefined> {

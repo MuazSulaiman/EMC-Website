@@ -5,7 +5,10 @@
   "foundedYear": 2006,
   "logo": {
     "src": "/media/partners/ameco-technology-logo.png",
-    "alt": { "en": "AMECO Technology logo", "ar": "شعار AMECO Technology" }
+    "alt": {
+      "en": "AMECO Technology logo",
+      "ar": "شعار AMECO Technology"
+    }
   },
   "summary": {
     "en": "Established in 2006 in Egypt, AMECO Technology (Ameco Technology Limited Partnership) manufactures disposable anesthesia and respiratory system products, certified ISO 13485 and CE by TÜV SÜD Germany.",
@@ -15,7 +18,11 @@
     "en": "AMECO's range covers anesthesia breathing systems, ventilation breathing systems, oxygen therapy systems, aerosol therapy systems, and general tubing and accessories — disposable, single-use products designed for high-volume ward and OR use across anesthesia and respiratory care.",
     "ar": "تغطي مجموعة منتجات AMECO أنظمة التنفس الخاصة بالتخدير، وأنظمة التنفس الخاصة بالتهوية الآلية، وأنظمة العلاج بالأكسجين، وأنظمة العلاج بالإرذاذ، بالإضافة إلى الأنابيب والملحقات العامة — وهي منتجات قابلة للاستخدام مرة واحدة، مصممة للاستخدام المكثف في الأجنحة وغرف العمليات ضمن مجالي التخدير والرعاية التنفسية."
   },
-  "clinicalAreas": ["anesthesia-airway-management", "nursing-general-consumables"],
+  "clinicalAreas": [
+    "anesthesia-airway-management",
+    "nursing-general-consumables"
+  ],
   "featuredProductSlugs": [],
-  "externalWebsite": "https://www.amecotechnology.com"
+  "externalWebsite": "https://www.amecotechnology.com",
+  "order": 4
 }

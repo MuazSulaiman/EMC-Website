@@ -4,7 +4,10 @@
   "country": "Finland",
   "logo": {
     "src": "/media/partners/frestems-logo.svg",
-    "alt": { "en": "Frestems logo", "ar": "شعار Frestems" }
+    "alt": {
+      "en": "Frestems logo",
+      "ar": "شعار Frestems"
+    }
   },
   "summary": {
     "en": "Frestems Oy is a Finnish manufacturer of patient transport and stretcher-loading systems, built for interoperability between civilian ambulance services and military medevac.",
@@ -14,7 +17,11 @@
     "en": "Frestems' Ergomy Series covers civilian ambulance stretchers and loading systems — including the Ergomy CARBON stretcher and the Ergomy TOTAL electric loading system — engineered to move a patient between point of injury, transport, and hospital without repeated transfers between devices. The parallel ProMIL Series shares the same wheel and loading interface for military use, so civilian and military stretcher systems remain compatible end to end.",
     "ar": "تغطي سلسلة Ergomy من Frestems نقالات الإسعاف المدنية وأنظمة تحميلها — بما في ذلك نقالة Ergomy CARBON ونظام التحميل الكهربائي Ergomy TOTAL — المصممة لنقل المريض من موقع الإصابة إلى النقل ثم المستشفى دون الحاجة لتحويله بين أجهزة متعددة. كما تشترك سلسلة ProMIL العسكرية الموازية في واجهة العجلات والتحميل ذاتها، بما يحافظ على التوافق بين أنظمة النقالات المدنية والعسكرية من طرف إلى طرف."
   },
-  "clinicalAreas": ["critical-care", "emergency-accidental"],
+  "clinicalAreas": [
+    "critical-care",
+    "emergency-accidental"
+  ],
   "featuredProductSlugs": [],
-  "externalWebsite": "https://www.frestems.fi"
+  "externalWebsite": "https://www.frestems.fi",
+  "order": 3
 }

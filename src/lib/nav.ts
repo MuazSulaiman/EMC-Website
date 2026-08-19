@@ -18,11 +18,11 @@ export const solutionsMenu: MegaMenuGroup = {
   labelKey: "nav.solutions",
   href: "/solutions",
   items: [
-    { labelKey: "nav.solutionsMenu.anesthesiaAirwayManagement", href: "/solutions/anesthesia-airway-management", icon: "Wind" },
-    { labelKey: "nav.solutionsMenu.respiratoryCare", href: "/solutions/respiratory-care", icon: "Activity" },
+    { labelKey: "nav.solutionsMenu.anesthesiaAirwayManagement", href: "/solutions/anesthesia-airway-management", icon: "Syringe" },
+    { labelKey: "nav.solutionsMenu.respiratoryCare", href: "/solutions/respiratory-care", icon: "AirVent" },
     { labelKey: "nav.solutionsMenu.criticalCare", href: "/solutions/critical-care", icon: "HeartPulse" },
     { labelKey: "nav.solutionsMenu.emergencyAccidental", href: "/solutions/emergency-accidental", icon: "Ambulance" },
-    { labelKey: "nav.solutionsMenu.nursingGeneralConsumables", href: "/solutions/nursing-general-consumables", icon: "Package" },
+    { labelKey: "nav.solutionsMenu.nursingGeneralConsumables", href: "/solutions/nursing-general-consumables", icon: "Bandage" },
   ],
 };
 

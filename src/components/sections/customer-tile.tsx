@@ -12,19 +12,19 @@ export function CustomerTile({ customer }: { customer: Customer }) {
   const locale = useLocale();
 
   return (
-    <div className="flex h-16 shrink-0 items-center justify-center rounded-xl border border-border bg-card px-6 shadow-xs">
+    <div className="flex h-28 w-56 shrink-0 items-center justify-center rounded-xl border border-border bg-card px-5 py-3 shadow-xs">
       {customer.logo ? (
-        <div className="relative h-10 w-32">
+        <div className="relative h-full w-full">
           <Image
             src={customer.logo.src}
             alt={pickLocale(customer.logo.alt, locale)}
             fill
-            sizes="150px"
+            sizes="220px"
             className="object-contain"
           />
         </div>
       ) : (
-        <span className="text-center font-heading text-sm font-semibold whitespace-nowrap text-foreground sm:text-base">
+        <span className="text-center font-heading text-sm leading-snug font-semibold text-foreground">
           {customer.name}
         </span>
       )}
