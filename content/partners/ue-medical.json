@@ -11,6 +11,6 @@
     "en": "UE Medical's Integrated Airway Management Platform runs its video laryngoscopes, video laryngeal masks, and bronchoscopes on one shared monitor — supporting split-screen multi-product display and 64GB of onboard storage for photo and video capture, which supports both clinical teaching and case traceability. The company operates 2 service centers, 3 sales centers, and 4 R&D centers with 150+ R&D engineers worldwide.",
     "ar": "تعمل منصة UE Medical المتكاملة لإدارة مجرى الهواء على تشغيل أجهزة تنظير الحنجرة بالفيديو والأقنعة الحنجرية البصرية ومناظير القصبات على شاشة مراقبة واحدة مشتركة — وتدعم عرض الشاشة المقسمة لعدة منتجات وسعة تخزين داخلية تبلغ 64 جيجابايت لالتقاط الصور والفيديو، مما يدعم كلاً من التدريب السريري وتتبع الحالات. تدير الشركة مركزين للخدمة، وثلاثة مراكز مبيعات، وأربعة مراكز بحث وتطوير، بأكثر من 150 مهندس بحث وتطوير حول العالم."
   },
-  "clinicalAreas": ["airway-management", "anesthesia"],
+  "clinicalAreas": ["anesthesia-airway-management", "respiratory-care", "critical-care", "emergency-accidental", "nursing-general-consumables"],
   "featuredProductSlugs": ["uescope-video-laryngoscope", "sacovlm-video-laryngeal-mask", "flexible-bronchoscope"]
 }

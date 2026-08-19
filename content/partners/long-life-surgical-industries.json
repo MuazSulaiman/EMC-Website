@@ -10,6 +10,6 @@
     "en": "The company's manufacturing is built around laryngoscopes and general surgical instruments, produced under an ISO 13485-certified quality management system.",
     "ar": "يرتكز تصنيع الشركة على مناظير الحنجرة والأدوات الجراحية العامة، المصنّعة وفق نظام إدارة جودة معتمد بشهادة ISO 13485."
   },
-  "clinicalAreas": [],
+  "clinicalAreas": ["anesthesia-airway-management", "nursing-general-consumables"],
   "featuredProductSlugs": []
 }
