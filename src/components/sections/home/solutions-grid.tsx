@@ -17,9 +17,13 @@ export function SolutionsGrid({
       <Reveal>
         <SectionHeading eyebrow={eyebrow} headline={headline} align="center" />
       </Reveal>
-      <RevealGroup className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <RevealGroup className="mt-10 flex flex-wrap justify-center gap-5">
         {solutions.map((solution, i) => (
-          <Reveal key={solution.slug} delay={i * 0.06}>
+          <Reveal
+            key={solution.slug}
+            delay={i * 0.06}
+            className="w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.834rem)]"
+          >
             <SolutionCard solution={solution} />
           </Reveal>
         ))}

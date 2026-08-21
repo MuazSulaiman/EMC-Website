@@ -9,6 +9,13 @@
     "en": "A flexible bronchoscope available in single-use and reusable variants, compatible with the shared UE monitor.",
     "ar": "منظار قصبات مرن متوفر بنسختين للاستخدام الواحد وقابلة لإعادة الاستخدام، متوافق مع شاشة UE المشتركة."
   },
+  "heroImage": {
+    "src": "/media/products/flexible-bronchoscope.jpg",
+    "alt": {
+      "en": "Flexible bronchoscope handle with integrated monitor and flexible insertion tube",
+      "ar": "منظار قصبات مرن بمقبض مزوّد بشاشة مراقبة متكاملة وأنبوب إدخال مرن"
+    }
+  },
   "gallery": [],
   "clinicalApplications": {
     "en": "Supports flexible bronchoscopy for airway assessment, difficult airway management, and pulmonary procedures where a single-use device is preferred for infection control, or a reusable device fits the facility's existing reprocessing workflow.",

@@ -57,9 +57,13 @@ export default async function SolutionsIndexPage({
       </section>
 
       <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-        <RevealGroup className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <RevealGroup className="flex flex-wrap justify-center gap-5">
           {solutions.map((solution, i) => (
-            <Reveal key={solution.slug} delay={i * 0.06}>
+            <Reveal
+              key={solution.slug}
+              delay={i * 0.06}
+              className="w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.834rem)]"
+            >
               <SolutionCard solution={solution} />
             </Reveal>
           ))}

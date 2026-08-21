@@ -1,4 +1,5 @@
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { pickLocale } from "@/lib/i18n-content";
 import type { Product, Partner } from "../../../content/schemas";
@@ -21,10 +22,22 @@ export function ProductCard({
       href={`/products/${product.slug}`}
       className="group flex h-full flex-col rounded-2xl border border-border bg-card p-6 shadow-xs transition-all duration-200 hover:-translate-y-1 hover:shadow-lg focus-visible:-translate-y-1 focus-visible:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
     >
-      {iconName && (
-        <span className="mb-3 inline-flex size-11 items-center justify-center rounded-xl bg-emc-teal-100 text-emc-purple-700">
-          <DynamicIcon name={iconName} className="size-5" aria-hidden="true" />
-        </span>
+      {product.heroImage ? (
+        <div className="relative -mx-6 -mt-6 mb-4 aspect-[16/9] overflow-hidden rounded-t-2xl bg-emc-gray-50">
+          <Image
+            src={product.heroImage.src}
+            alt={pickLocale(product.heroImage.alt, locale)}
+            fill
+            sizes="(min-width: 1024px) 30vw, 90vw"
+            className="object-cover"
+          />
+        </div>
+      ) : (
+        iconName && (
+          <span className="mb-3 inline-flex size-11 items-center justify-center rounded-xl bg-emc-teal-100 text-emc-purple-700">
+            <DynamicIcon name={iconName} className="size-5" aria-hidden="true" />
+          </span>
+        )
       )}
       {manufacturer && (
         <span className="text-xs font-semibold tracking-wide text-emc-teal-700 uppercase">

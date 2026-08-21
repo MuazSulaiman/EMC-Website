@@ -10,7 +10,22 @@
     "en": "A video laryngeal mask with an integrated visual stylet, built to run on the same shared UE monitor as the rest of the airway platform.",
     "ar": "قناع حنجري بصري مزوّد بموجّه بصري متكامل، مصمم للعمل على شاشة UE المشتركة ذاتها مع باقي أجهزة منصة مجرى الهواء."
   },
-  "gallery": [],
+  "heroImage": {
+    "src": "/media/products/sacovlm-video-laryngeal-mask.jpg",
+    "alt": {
+      "en": "Video laryngeal mask device with integrated monitor and visual stylet",
+      "ar": "جهاز قناع حنجري بصري مزوّد بشاشة مراقبة متكاملة وموجّه بصري"
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/products/sacovlm-sizes.jpg",
+      "alt": {
+        "en": "Video laryngeal mask shown in multiple available sizes",
+        "ar": "قناع حنجري بصري معروض بعدة مقاسات متوفرة"
+      }
+    }
+  ],
   "clinicalApplications": {
     "en": "Provides supraglottic airway management with direct visual confirmation of placement, for use in anesthesia and airway rescue scenarios where a video laryngeal mask is clinically appropriate.",
     "ar": "توفر إدارة مجرى هواء فوق المزمار مع تأكيد بصري مباشر لموضع الجهاز، للاستخدام في التخدير وسيناريوهات إنقاذ مجرى الهواء التي يكون فيها استخدام القناع الحنجري البصري مناسباً سريرياً."

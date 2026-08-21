@@ -11,6 +11,13 @@
     "en": "A reusable video laryngoscope with a wide-angle view and an all-angle adjustable monitor, built for the UE Integrated Airway Management Platform.",
     "ar": "منظار حنجرة بالفيديو قابل لإعادة الاستخدام بزاوية رؤية واسعة وشاشة مراقبة قابلة للتعديل بكل الزوايا، مصمم للعمل ضمن منصة UE المتكاملة لإدارة مجرى الهواء."
   },
+  "heroImage": {
+    "src": "/media/products/uescope-video-laryngoscope.jpg",
+    "alt": {
+      "en": "UEScope video laryngoscope handle with an integrated monitor showing an endoscopic airway view",
+      "ar": "منظار حنجرة UEScope بالفيديو بمقبض مزوّد بشاشة مراقبة متكاملة تعرض رؤية منظارية لمجرى الهواء"
+    }
+  },
   "gallery": [],
   "clinicalApplications": {
     "en": "Used for direct and video-assisted tracheal intubation across anesthesia, emergency medicine, and ICU airway management, including routine and anticipated difficult airway cases. Runs on the shared UE monitor alongside the platform's other airway devices, so the same screen and workflow carry across a hospital's laryngoscopy, laryngeal mask, and bronchoscopy cases.",
