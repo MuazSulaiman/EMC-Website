@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils";
 import { DesktopNav } from "@/components/layout/desktop-nav";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
-import { SearchTrigger } from "@/components/layout/search-trigger";
 import { DemoRequestModal } from "@/components/layout/demo-request-modal";
 
 export function Header() {
@@ -50,7 +49,6 @@ export function Header() {
         <DesktopNav />
 
         <div className="flex shrink-0 items-center gap-1">
-          <SearchTrigger />
           <LanguageSwitcher />
           <div className="hidden sm:block">
             <DemoRequestModal />
