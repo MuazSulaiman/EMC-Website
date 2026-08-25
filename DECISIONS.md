@@ -2,6 +2,10 @@
 
 Judgment calls made during the build where PROJECT_SPEC.md was silent or the repo environment forced a choice. Ordered by build phase.
 
+## 2026-08-25 (follow-up) — Muhammad Sulaiman removed from About leadership (user-requested)
+
+Muaz asked to remove the Muhammad Sulaiman (Business Development Manager) leadership entry added earlier the same day from the company-profile refresh. Removed the entry from `content/pages/about.json`'s `leadership` array entirely — back to the CEO-only leadership section. No reason given; no other content from that refresh (vision, values, CEO bio enrichment, partner-facing section) was touched.
+
 ## 2026-08-25 (follow-up) — AMECO corrected to the real partner (user-confirmed)
 
 Muaz confirmed the AMECO discrepancy flagged in the entry below: the real EMC partner is **Arab Medical Equipment Company (AMECO)**, not "Ameco Technology Limited Partnership." Verified via `amecoegypt.com` directly (WebFetch on the homepage, `/about-us/`, and `/products/`) rather than trusting the deck alone — downloaded the site's full-resolution logo (`wp-content/uploads/2026/05/logo.png`) and visually confirmed it's a pixel-for-pixel match to the "Major Partners" slide's AMECO badge before using it, per the project's standing rule against publishing a logo without confirming it's the real, current asset.
