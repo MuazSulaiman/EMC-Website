@@ -77,11 +77,11 @@ export default async function AboutPage({
 
       <section className="bg-emc-gray-50 py-16 sm:py-24">
         <div className="mx-auto grid max-w-7xl 2xl:max-w-[96rem] gap-6 px-4 sm:grid-cols-2 sm:px-6 lg:px-8">
-          <Reveal className="rounded-2xl bg-emc-purple-900 p-8 text-white">
-            <h3 className="font-heading text-sm font-semibold tracking-wide text-emc-teal-400 uppercase">
+          <Reveal className="rounded-2xl border border-border bg-card p-8">
+            <h3 className="font-heading text-sm font-semibold tracking-wide text-emc-teal-700 uppercase">
               {tAbout("vision")}
             </h3>
-            <p className="mt-3 text-lg font-heading font-medium">
+            <p className="mt-3 text-lg font-heading font-medium text-foreground">
               {l(content.vision)}
             </p>
           </Reveal>
@@ -159,12 +159,12 @@ export default async function AboutPage({
         </div>
       </section>
 
-      <section className="bg-emc-purple-900 py-16 sm:py-20">
+      <section className="bg-emc-gray-50 py-16 sm:py-20">
         <Reveal className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-heading font-bold text-white">
+          <h2 className="text-2xl font-heading font-bold text-foreground">
             {l(content.corporatePhilosophy.headline)}
           </h2>
-          <p className="mt-4 text-lg text-white/80">
+          <p className="mt-4 text-lg text-muted-foreground">
             {l(content.corporatePhilosophy.body)}
           </p>
         </Reveal>
