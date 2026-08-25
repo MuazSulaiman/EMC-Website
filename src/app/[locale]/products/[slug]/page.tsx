@@ -21,6 +21,7 @@ import { ProductCard } from "@/components/sections/product-card";
 import { TechSpecsTable } from "@/components/sections/products/tech-specs";
 import { ProductVideo } from "@/components/sections/products/product-video";
 import { DemoRequestModal } from "@/components/layout/demo-request-modal";
+import { QuotationRequestModal } from "@/components/layout/quotation-request-modal";
 import { buildMetadata, buildProductJsonLd, JsonLd, truncateDescription } from "@/lib/seo";
 
 export async function generateStaticParams() {
@@ -105,6 +106,7 @@ export default async function ProductDetailPage({
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <DemoRequestModal defaultInterest={product.name} size="xl" />
+              <QuotationRequestModal defaultProduct={product.name} variant="outline" />
               <Button size="xl" variant="outline" render={<Link href="/contact" />}>
                 {t("cta.speakWithSpecialist")}
               </Button>
