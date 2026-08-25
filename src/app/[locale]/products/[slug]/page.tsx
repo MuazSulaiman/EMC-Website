@@ -104,13 +104,13 @@ export default async function ProductDetailPage({
               {l(product.shortDescription)}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <DemoRequestModal defaultInterest={product.name} size="lg" />
-              <Button size="lg" variant="outline" render={<Link href="/contact" />}>
+              <DemoRequestModal defaultInterest={product.name} size="xl" />
+              <Button size="xl" variant="outline" render={<Link href="/contact" />}>
                 {t("cta.speakWithSpecialist")}
               </Button>
               {product.brochureUrl && (
                 <Button
-                  size="lg"
+                  size="xl"
                   variant="ghost"
                   render={<a href={product.brochureUrl} target="_blank" rel="noopener noreferrer" />}
                 >

@@ -36,7 +36,7 @@ const CONTACT_METHODS = ["email", "phone", "whatsapp"] as const;
 export function DemoRequestModal({
   defaultInterest,
   variant = "default",
-  size = "sm",
+  size = "xl",
   className,
 }: {
   defaultInterest?: string;

@@ -37,10 +37,10 @@ export function Hero({
           </Reveal>
           <Reveal above delay={0.16}>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Button size="lg" render={<Link href="/solutions" />}>
+              <Button size="xl" render={<Link href="/solutions" />}>
                 {t("cta.exploreSolutions")}
               </Button>
-              <DemoRequestModal size="lg" variant="outline" />
+              <DemoRequestModal size="xl" variant="outline" />
             </div>
           </Reveal>
         </div>

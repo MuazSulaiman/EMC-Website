@@ -36,7 +36,7 @@ const PROCUREMENT_TYPES = ["tender", "direct"] as const;
 export function QuotationRequestModal({
   defaultProduct,
   variant = "default",
-  size = "sm",
+  size = "xl",
   className,
 }: {
   defaultProduct?: string;

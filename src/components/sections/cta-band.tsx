@@ -28,11 +28,11 @@ export function CtaBand({
         <div className="flex shrink-0 flex-wrap gap-3">
           <QuotationRequestModal
             defaultProduct={defaultProduct}
-            size="lg"
+            size="xl"
             variant="secondary"
           />
           <Button
-            size="lg"
+            size="xl"
             className="bg-white text-emc-purple-900 hover:bg-white/90"
             render={<Link href="/contact" />}
           >

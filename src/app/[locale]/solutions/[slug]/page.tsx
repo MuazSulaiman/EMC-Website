@@ -99,13 +99,13 @@ export default async function SolutionDetailPage({
               {l(solution.shortDescription)}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Button size="lg" render={<Link href="/contact" />}>
+              <Button size="xl" render={<Link href="/contact" />}>
                 {t("cta.speakWithSpecialist")}
               </Button>
               {!isExpanding && (
                 <DemoRequestModal
                   defaultInterest={l(solution.name)}
-                  size="lg"
+                  size="xl"
                   variant="outline"
                 />
               )}
