@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import {
   getHomePageContent,
+  getAboutPageContent,
   getSolutions,
   getPartners,
   getCustomers,
@@ -48,6 +49,7 @@ export default async function HomePage({
 
   const [
     content,
+    aboutContent,
     solutions,
     partners,
     customers,
@@ -56,6 +58,7 @@ export default async function HomePage({
     testimonials,
   ] = await Promise.all([
     getHomePageContent(),
+    getAboutPageContent(),
     getSolutions(),
     getPartners(),
     getCustomers(),
@@ -114,6 +117,11 @@ export default async function HomePage({
         eyebrow={l(content.whyEmcTeaser.eyebrow)}
         headline={l(content.whyEmcTeaser.headline)}
         body={l(content.whyEmcTeaser.body)}
+        pillars={aboutContent.whyEmc.pillars.map((pillar) => ({
+          icon: pillar.icon,
+          title: l(pillar.title),
+          body: l(pillar.body),
+        }))}
       />
 
       <StatsBand stats={verifiedStats} />
