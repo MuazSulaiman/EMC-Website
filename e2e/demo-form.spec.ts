@@ -11,6 +11,11 @@ test.describe("Request a Demo", () => {
 
     await dialog.getByLabel("Full Name").fill("Sara Al-Qahtani");
     await dialog.getByLabel("Organization").fill("King Fahd Hospital");
+
+    // Job Title, Department, and City are optional and live inside a
+    // collapsed <details>/<summary> progressive-disclosure section — open it
+    // before interacting with those fields (see demo-request-modal.tsx).
+    await dialog.getByText("More details (optional)").click();
     await dialog.getByLabel("Job Title").fill("Biomedical Engineer");
     await dialog.getByLabel("Department").fill("Anesthesia");
     await dialog.getByLabel("City").fill("Dammam");
