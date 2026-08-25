@@ -1,11 +1,13 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { getServicesPageContent } from "@/lib/content";
+import { getServicesPageContent, getIndexPagesContent } from "@/lib/content";
 import { pickLocale } from "@/lib/i18n-content";
 import { Link } from "@/i18n/navigation";
 import { PageBreadcrumb } from "@/components/layout/page-breadcrumb";
 import { Reveal, RevealGroup } from "@/components/motion/reveal";
 import { DynamicIcon } from "@/components/ui/dynamic-icon";
+import { Button } from "@/components/ui/button";
+import { CtaBand } from "@/components/sections/cta-band";
 import { buildMetadata, truncateDescription } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -33,7 +35,10 @@ export default async function ServicesPage({
   setRequestLocale(locale);
   const t = await getTranslations();
 
-  const content = await getServicesPageContent();
+  const [content, pageContent] = await Promise.all([
+    getServicesPageContent(),
+    getIndexPagesContent(),
+  ]);
   const l = (v: { en: string; ar: string }) => pickLocale(v, locale);
 
   return (
@@ -70,17 +75,26 @@ export default async function ServicesPage({
                 {l(service.description)}
               </p>
               {service.ctaType && (
-                <Link
-                  href={`/contact?type=${service.ctaType}`}
-                  className="mt-4 text-sm font-medium text-emc-teal-700 hover:underline"
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="mt-4 self-start"
+                  render={<Link href={`/contact?type=${service.ctaType}`} />}
                 >
                   {t("cta.contactEmc")}
-                </Link>
+                </Button>
               )}
             </Reveal>
           ))}
         </RevealGroup>
       </section>
+
+      <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+        <CtaBand
+          headline={l(pageContent.detailPageCta.headline)}
+          body={l(pageContent.detailPageCta.body)}
+        />
+      </div>
     </>
   );
 }

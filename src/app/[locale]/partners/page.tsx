@@ -6,6 +6,7 @@ import { PageBreadcrumb } from "@/components/layout/page-breadcrumb";
 import { Reveal, RevealGroup } from "@/components/motion/reveal";
 import { PartnerTile } from "@/components/sections/partner-tile";
 import { PillarCard } from "@/components/sections/about/pillar-card";
+import { CtaBand } from "@/components/sections/cta-band";
 import { buildMetadata, truncateDescription } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -93,6 +94,13 @@ export default async function PartnersIndexPage({
           </RevealGroup>
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+        <CtaBand
+          headline={l(content.detailPageCta.headline)}
+          body={l(content.detailPageCta.body)}
+        />
+      </div>
     </>
   );
 }

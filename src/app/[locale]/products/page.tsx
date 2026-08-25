@@ -5,6 +5,7 @@ import { pickLocale } from "@/lib/i18n-content";
 import { PageBreadcrumb } from "@/components/layout/page-breadcrumb";
 import { Reveal } from "@/components/motion/reveal";
 import { ProductCatalog } from "@/components/sections/products/product-catalog";
+import { CtaBand } from "@/components/sections/cta-band";
 import { buildMetadata, truncateDescription } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -61,6 +62,13 @@ export default async function ProductsIndexPage({
       <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <ProductCatalog products={products} solutions={solutions} partners={partners} />
       </section>
+
+      <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 pb-16 sm:px-6 sm:pb-24 lg:px-8">
+        <CtaBand
+          headline={l(content.detailPageCta.headline)}
+          body={l(content.detailPageCta.body)}
+        />
+      </div>
     </>
   );
 }
