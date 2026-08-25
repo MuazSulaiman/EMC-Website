@@ -20,6 +20,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { primaryNav, solutionsMenu, partnersMenu } from "@/lib/nav";
+import { DemoRequestModal } from "@/components/layout/demo-request-modal";
 
 export function MobileNav() {
   const t = useTranslations();
@@ -95,6 +96,10 @@ export function MobileNav() {
                 {t(item.labelKey)}
               </SheetClose>
             ))}
+
+          <div className="mt-4 px-3">
+            <DemoRequestModal size="xl" className="w-full" />
+          </div>
         </nav>
       </SheetContent>
     </Sheet>
