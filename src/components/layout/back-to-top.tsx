@@ -20,6 +20,8 @@ export function BackToTop() {
     <button
       type="button"
       aria-label={t("backToTop")}
+      aria-hidden={!visible}
+      tabIndex={visible ? 0 : -1}
       onClick={() =>
         window.scrollTo({
           top: 0,

@@ -22,7 +22,7 @@ export function Hero({
     <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 pt-12 pb-16 sm:px-6 sm:pt-16 sm:pb-24 lg:px-8">
       <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         <div>
-          <Reveal>
+          <Reveal above>
             <p className="text-sm font-semibold tracking-wide text-emc-teal-700 uppercase">
               {eyebrow}
             </p>
@@ -30,12 +30,12 @@ export function Hero({
               {headline}
             </h1>
           </Reveal>
-          <Reveal delay={0.08}>
+          <Reveal above delay={0.08}>
             <p className="mt-6 max-w-xl text-lg text-muted-foreground">
               {subhead}
             </p>
           </Reveal>
-          <Reveal delay={0.16}>
+          <Reveal above delay={0.16}>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button size="lg" render={<Link href="/solutions" />}>
                 {t("cta.exploreSolutions")}
@@ -44,7 +44,7 @@ export function Hero({
             </div>
           </Reveal>
         </div>
-        <Reveal delay={0.1}>
+        <Reveal above delay={0.1}>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl lg:aspect-square">
             <Image
               src="/media/photos/1.jpeg"

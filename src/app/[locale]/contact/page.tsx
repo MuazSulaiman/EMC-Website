@@ -62,7 +62,7 @@ export default async function ContactPage({
       <PageBreadcrumb trail={[{ label: t("nav.contact") }]} />
 
       <section className="mx-auto max-w-3xl px-4 pt-8 pb-4 sm:px-6 lg:px-8">
-        <Reveal>
+        <Reveal above>
           <p className="text-sm font-semibold tracking-wide text-emc-teal-700 uppercase">
             {l(content.intro.eyebrow)}
           </p>
@@ -75,7 +75,7 @@ export default async function ContactPage({
 
       <section className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
-          <Reveal className="rounded-2xl border border-border bg-card p-6 sm:p-8">
+          <Reveal above className="rounded-2xl border border-border bg-card p-6 sm:p-8">
             <ContactForm initialInquiryType={initialInquiryType} />
           </Reveal>
 
