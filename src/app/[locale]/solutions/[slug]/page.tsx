@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import {
@@ -138,6 +139,17 @@ export default async function SolutionDetailPage({
                   delay={i * 0.06}
                   className="rounded-2xl border border-border bg-card p-6"
                 >
+                  {partner.logo && (
+                    <div className="relative mb-4 h-10 w-32">
+                      <Image
+                        src={partner.logo.src}
+                        alt={pickLocale(partner.logo.alt, locale)}
+                        fill
+                        sizes="128px"
+                        className="object-contain object-left"
+                      />
+                    </div>
+                  )}
                   <h3 className="font-heading text-lg font-semibold text-foreground">
                     {partner.name}
                   </h3>
