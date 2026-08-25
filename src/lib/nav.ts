@@ -41,7 +41,7 @@ export const partnersMenu: MegaMenuGroup = {
     { labelKey: "nav.partnersMenu.ueMedical", href: "/partners/ue-medical" },
     { labelKey: "nav.partnersMenu.longLifeSurgical", href: "/partners/long-life-surgical-industries" },
     { labelKey: "nav.partnersMenu.frestems", href: "/partners/frestems" },
-    { labelKey: "nav.partnersMenu.ameco", href: "/partners/ameco-technology" },
+    { labelKey: "nav.partnersMenu.ameco", href: "/partners/ameco" },
   ],
 };
 

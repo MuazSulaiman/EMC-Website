@@ -1,0 +1,27 @@
+{
+  "slug": "ameco",
+  "name": "AMECO",
+  "country": "Egypt",
+  "foundedYear": 1984,
+  "logo": {
+    "src": "/media/partners/ameco-logo.png",
+    "alt": {
+      "en": "AMECO (Arab Medical Equipment Company) logo",
+      "ar": "شعار AMECO (الشركة العربية للأدوات الطبية)"
+    }
+  },
+  "summary": {
+    "en": "Founded in 1984 in 10th of Ramadan City, Egypt, as a full turnkey German project, Arab Medical Equipment Company (AMECO) was one of the earliest disposable syringe manufacturers in Egypt and the Middle East. Its 30,000 sqm facility produces approximately 600 million syringes a year, certified ISO 13485:2016 and CE marked.",
+    "ar": "تأسست الشركة العربية للأدوات الطبية (AMECO) عام 1984 في مدينة العاشر من رمضان بمصر كمشروع ألماني متكامل، وهي من أوائل الشركات المصنّعة للحقن الطبية أحادية الاستخدام في مصر والشرق الأوسط. ينتج مصنعها الممتد على مساحة 30 ألف متر مربع نحو 600 مليون حقنة سنوياً، وهي حاصلة على شهادة ISO 13485:2016 وعلامة CE."
+  },
+  "technologyExpertise": {
+    "en": "AMECO manufactures disposable two-part and three-part precision syringes and hypodermic needles (in a full range of gauges and sizes, sterile and individually packed), the everyday consumables that keep nursing teams and general wards equipped. AMECO is also developing RETRAGO, an auto-disable safety syringe line, currently in development.",
+    "ar": "تصنّع AMECO حقناً طبية دقيقة أحادية الاستخدام من نوعي الجزأين والثلاثة أجزاء، وإبراً تحت الجلد (بمجموعة كاملة من الأقطار والأحجام، معقّمة ومعبأة فردياً) — وهي المستلزمات اليومية التي تبقي فرق التمريض والأجنحة العامة مجهزة. كما تعمل AMECO على تطوير خط RETRAGO، وهو حقن أمان ذاتية التعطيل، ولا يزال قيد التطوير."
+  },
+  "clinicalAreas": [
+    "nursing-general-consumables"
+  ],
+  "featuredProductSlugs": [],
+  "externalWebsite": "https://amecoegypt.com",
+  "order": 4
+}

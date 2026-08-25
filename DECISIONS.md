@@ -2,6 +2,20 @@
 
 Judgment calls made during the build where PROJECT_SPEC.md was silent or the repo environment forced a choice. Ordered by build phase.
 
+## 2026-08-25 (follow-up) — AMECO corrected to the real partner (user-confirmed)
+
+Muaz confirmed the AMECO discrepancy flagged in the entry below: the real EMC partner is **Arab Medical Equipment Company (AMECO)**, not "Ameco Technology Limited Partnership." Verified via `amecoegypt.com` directly (WebFetch on the homepage, `/about-us/`, and `/products/`) rather than trusting the deck alone — downloaded the site's full-resolution logo (`wp-content/uploads/2026/05/logo.png`) and visually confirmed it's a pixel-for-pixel match to the "Major Partners" slide's AMECO badge before using it, per the project's standing rule against publishing a logo without confirming it's the real, current asset.
+
+**Verified facts (all from amecoegypt.com, nothing carried over from the old, wrong-company content):** founded 1984 in 10th of Ramadan City, Egypt, as "a full turnkey German project" — one of the earliest disposable syringe manufacturers in Egypt/the Middle East. 30,000 sqm facility, ~600 million syringes/year. Products: two-part and three-part precision disposable syringes, hypodermic needles (since 2007). ISO 13485:2016 and CE certified, Egyptian Ministry of Health & Population approved. A RETRAGO auto-disable safety-syringe line is listed on the site as "Coming Soon" — mentioned in the partner copy as in-development, not as an available product, so as not to overstate what's actually orderable today.
+
+**Replaced `content/partners/ameco-technology.json` entirely** (deleted, not migrated — none of the old content was reusable) **with `content/partners/ameco.json`** — new slug (`ameco`, was `ameco-technology`), new name ("AMECO"), new summary/technologyExpertise grounded in the facts above, new logo (`public/media/partners/ameco-logo.png`, old logo file removed). `clinicalAreas` narrowed to `["nursing-general-consumables"]` only — syringes and hypodermic needles are general nursing consumables, not anesthesia/airway-specific, so unlike the old (wrong) content this partner no longer appears under Anesthesia & Airway Management at all.
+
+**Corrected the two solution files that had carried the wrong company's product claims:** `content/solutions/anesthesia-airway-management.json` — removed the AMECO sentence and the `ameco-technology` entry from `relatedPartnerSlugs` entirely (breathing circuits were never a real AMECO product; this solution's supplier roster is now UE Medical + Long Life Surgical only). `content/solutions/nursing-general-consumables.json` — rewrote the AMECO sentence from "oxygen therapy, aerosol therapy, and tubing/accessory lines" (fabricated-by-inheritance from the wrong company) to the real syringe/needle products, and updated `relatedPartnerSlugs` to the new `ameco` slug.
+
+**Updated references:** `src/lib/nav.ts` (`/partners/ameco-technology` → `/partners/ameco`), `messages/en.json`/`ar.json` (`nav.partnersMenu.ameco` label "AMECO Technology" → "AMECO"), `content/partners/README.md` roster note. Ran `scripts/validate-content-refs.mjs` (clean — 5 solutions, 4 partners, 3 products) and `npx tsc --noEmit` (clean), then live-checked `/en/partners/ameco`, `/ar/partners/ameco`, both corrected solution pages, and confirmed the old `/partners/ameco-technology` URL now 404s (nothing still links to it) before considering this done.
+
+**Left alone:** the "AMECO Technology" name pattern itself was fine as a naming convention — the issue was never the phrasing, it was that the underlying company was wrong. No other partner's content was touched.
+
 ## 2026-08-25 — Company profile refresh from `EMC_Company Profile - Aug 2026.pdf` (user-requested)
 
 Muaz added a new internal company profile deck to `Manual Content Handover/`. Reviewed it against live site content, presented a diff with proposed changes, and implemented the items Muaz approved (1, 2, 3, 4, 6, 7 from that review — item 5, a partner-roster conflict, was explicitly left alone).
