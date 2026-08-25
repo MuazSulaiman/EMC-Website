@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { primaryNav, footerLegalLinks, solutionsMenu } from "@/lib/nav";
+import { primaryNav, footerLegalLinks, solutionsMenu, partnersMenu } from "@/lib/nav";
 import { siteConfig } from "@/lib/site-config";
 import { XIcon, InstagramIcon } from "@/components/icons/social-icons";
 import { Phone, Mail, MapPin } from "lucide-react";
@@ -69,6 +69,14 @@ export function Footer() {
                   className="text-sm text-white/70 transition-colors hover:text-white"
                 >
                   {t(solutionsMenu.labelKey)}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={partnersMenu.href}
+                  className="text-sm text-white/70 transition-colors hover:text-white"
+                >
+                  {t(partnersMenu.labelKey)}
                 </Link>
               </li>
             </ul>
