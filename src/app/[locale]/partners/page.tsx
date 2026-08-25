@@ -5,6 +5,7 @@ import { pickLocale } from "@/lib/i18n-content";
 import { PageBreadcrumb } from "@/components/layout/page-breadcrumb";
 import { Reveal, RevealGroup } from "@/components/motion/reveal";
 import { PartnerTile } from "@/components/sections/partner-tile";
+import { PillarCard } from "@/components/sections/about/pillar-card";
 import { buildMetadata, truncateDescription } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -64,6 +65,33 @@ export default async function PartnersIndexPage({
             </Reveal>
           ))}
         </RevealGroup>
+      </section>
+
+      <section className="bg-emc-gray-50 py-16 sm:py-24">
+        <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-4 sm:px-6 lg:px-8">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <p className="text-sm font-semibold tracking-wide text-emc-teal-700 uppercase">
+              {l(content.partnerWithUs.eyebrow)}
+            </p>
+            <h2 className="mt-2 text-3xl font-heading font-bold text-foreground">
+              {l(content.partnerWithUs.headline)}
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              {l(content.partnerWithUs.body)}
+            </p>
+          </Reveal>
+          <RevealGroup className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {content.partnerWithUs.pillars.map((pillar, i) => (
+              <PillarCard
+                key={pillar.title.en}
+                icon={pillar.icon}
+                title={l(pillar.title)}
+                body={l(pillar.body)}
+                delay={i * 0.05}
+              />
+            ))}
+          </RevealGroup>
+        </div>
       </section>
     </>
   );

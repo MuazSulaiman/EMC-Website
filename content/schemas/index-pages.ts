@@ -20,6 +20,20 @@ export const indexPagesSchema = z.object({
     headline: localizedStringSchema,
     body: localizedStringSchema,
   }),
+  // Supplier/manufacturer-facing pitch on the Partners index page — distinct
+  // audience from partnersIndex.body (hospital/buyer-facing). See DECISIONS.md.
+  partnerWithUs: z.object({
+    eyebrow: localizedStringSchema,
+    headline: localizedStringSchema,
+    body: localizedStringSchema,
+    pillars: z.array(
+      z.object({
+        icon: z.string(),
+        title: localizedStringSchema,
+        body: localizedStringSchema,
+      }),
+    ),
+  }),
 });
 
 export type IndexPagesContent = z.infer<typeof indexPagesSchema>;

@@ -6,20 +6,20 @@
   "whoWeAre": {
     "headline": { "en": "Who We Are", "ar": "من نحن" },
     "body": {
-      "en": "Excellence Medical Care Ltd. (EMC) is a Dammam-based healthcare technology and medical solutions partner, connecting Saudi and Gulf healthcare providers with global medical technologies and the clinical training, technical support, regulatory knowledge, and after-sales service that make them safe and effective in practice.",
-      "ar": "شركة إكسلنس ميديكال كير المحدودة (EMC) هي شريك في التقنية الطبية والحلول الطبية مقرها الدمام، تربط مقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج بالتقنيات الطبية العالمية، إلى جانب التدريب السريري، والدعم الفني، والمعرفة التنظيمية، وخدمة ما بعد البيع التي تجعل هذه التقنيات آمنة وفعالة في الممارسة العملية."
+      "en": "Excellence Medical Care Ltd. (EMC) is a Dammam-based healthcare technology and medical solutions partner, connecting Saudi healthcare providers with global medical technologies and the clinical training, technical support, regulatory knowledge, and after-sales service that make them safe and effective in practice.",
+      "ar": "شركة إكسلنس ميديكال كير المحدودة (EMC) هي شريك في التقنية الطبية والحلول الطبية مقرها الدمام، تربط مقدمي الرعاية الصحية في المملكة العربية السعودية بالتقنيات الطبية العالمية، إلى جانب التدريب السريري، والدعم الفني، والمعرفة التنظيمية، وخدمة ما بعد البيع التي تجعل هذه التقنيات آمنة وفعالة في الممارسة العملية."
     }
   },
   "ourStory": {
     "headline": { "en": "Our Story", "ar": "قصتنا" },
     "body": {
-      "en": "EMC was established in 2013 in Dammam, Saudi Arabia, trading as Tamioz/TamiozMed. Since then, the company has built partnerships with specialist manufacturers across anesthesia and airway management, respiratory and critical care, emergency transport, and general nursing consumables — bringing their technologies to Ministry of Health, military, university, and private hospitals across the Kingdom and the wider Gulf region.",
-      "ar": "تأسست إكسلنس ميديكال كير عام 2013 في الدمام بالمملكة العربية السعودية، وتعمل تحت الاسم التجاري تميز / TamiozMed. ومنذ ذلك الحين، بنت الشركة شراكات مع مصنّعين متخصصين في مجالات التخدير وإدارة مجرى الهواء، والرعاية التنفسية والحرجة، ونقل حالات الطوارئ، ومستلزمات التمريض العامة — لتقديم تقنياتهم إلى مستشفيات وزارة الصحة، والمستشفيات العسكرية والجامعية والخاصة في مختلف أنحاء المملكة ودول الخليج الأوسع."
+      "en": "EMC was established in 2013 in Dammam, Saudi Arabia, trading as Tamioz/TamiozMed. Since then, the company has built partnerships with specialist manufacturers across anesthesia and airway management, respiratory and critical care, emergency transport, and general nursing consumables — bringing their technologies to Ministry of Health, military, university, and private hospitals across the Kingdom.",
+      "ar": "تأسست إكسلنس ميديكال كير عام 2013 في الدمام بالمملكة العربية السعودية، وتعمل تحت الاسم التجاري تميز / TamiozMed. ومنذ ذلك الحين، بنت الشركة شراكات مع مصنّعين متخصصين في مجالات التخدير وإدارة مجرى الهواء، والرعاية التنفسية والحرجة، ونقل حالات الطوارئ، ومستلزمات التمريض العامة — لتقديم تقنياتهم إلى مستشفيات وزارة الصحة، والمستشفيات العسكرية والجامعية والخاصة في مختلف أنحاء المملكة."
     }
   },
   "vision": {
-    "en": "To inspire a healthier future by being the leading provider of innovative healthcare solutions across Saudi Arabia and the Gulf Region.",
-    "ar": "نلهم مستقبلاً صحياً أفضل من خلال ريادتنا في تقديم الحلول الصحية المبتكرة في جميع أنحاء المملكة العربية السعودية ودول الخليج."
+    "en": "To inspire a healthier future by being the leading provider of innovative healthcare solutions across Saudi Arabia's highly competitive market.",
+    "ar": "نلهم مستقبلاً صحياً أفضل بأن نكون الرواد في تقديم حلول الرعاية الصحية المبتكرة عبر السوق السعودي شديد التنافسية."
   },
   "mission": {
     "en": "Driven by excellence and innovation, we partner with healthcare providers to deliver world-class medical technologies that create safer procedures, greater clinical confidence, and better patient care.",
@@ -27,10 +27,10 @@
   },
   "values": [
     {
-      "name": { "en": "Innovation", "ar": "الابتكار" },
+      "name": { "en": "People & Respect", "ar": "الأفراد والاحترام" },
       "description": {
-        "en": "Bringing new medical technologies to Saudi and Gulf healthcare providers as they become available.",
-        "ar": "تقديم أحدث التقنيات الطبية لمقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج فور توفرها."
+        "en": "Fostering a culture of respect, professionalism, and ethical collaboration with every hospital partner, manufacturer, and colleague.",
+        "ar": "ترسيخ ثقافة قائمة على الاحترام والاحترافية والتعاون الأخلاقي مع كل شريك من المستشفيات والشركات المصنّعة والزملاء."
       }
     },
     {
@@ -144,8 +144,16 @@
       "name": "Moosa Almoosa",
       "title": { "en": "Founder & Chief Executive Officer", "ar": "المؤسس والرئيس التنفيذي" },
       "bio": {
-        "en": "Moosa Almoosa founded Excellence Medical Care in 2013 and leads the company's work connecting Saudi and Gulf healthcare providers with global medical technology partners.",
-        "ar": "أسس موسى الموسى شركة إكسلنس ميديكال كير عام 2013، ويقود عمل الشركة في ربط مقدمي الرعاية الصحية في المملكة العربية السعودية ودول الخليج بشركاء التقنية الطبية العالميين."
+        "en": "Moosa Almoosa founded Excellence Medical Care in 2013 and leads the company's work connecting Saudi healthcare providers with global medical technology partners. He brings deep technical and clinical understanding of medical products and their practical application in healthcare institutions, along with strong expertise in the Saudi regulatory and market landscape — SFDA requirements, NUPCO procurement, medical manufacturing, and localization initiatives.",
+        "ar": "أسس موسى الموسى شركة إكسلنس ميديكال كير عام 2013، ويقود عمل الشركة في ربط مقدمي الرعاية الصحية في المملكة العربية السعودية بشركاء التقنية الطبية العالميين. يتمتع بفهم فني وسريري عميق للمنتجات الطبية وتطبيقاتها العملية داخل المؤسسات الصحية، إلى جانب خبرة واسعة في البيئة التنظيمية والسوقية السعودية — بما يشمل متطلبات الهيئة العامة للغذاء والدواء، ومشتريات نُبكو، والتصنيع الطبي، ومبادرات التوطين."
+      }
+    },
+    {
+      "name": "Muhammad Sulaiman",
+      "title": { "en": "Business Development Manager", "ar": "مدير تطوير الأعمال" },
+      "bio": {
+        "en": "Muhammad Sulaiman leads EMC's business development, bringing 25+ years of healthcare industry experience spanning medical devices, consumables, business development, market access, and strategic partnerships. He has established relationships with key healthcare stakeholders and KOLs across Saudi Arabia, supporting effective market access, clinical engagement, and product adoption for EMC's manufacturer partners.",
+        "ar": "يقود محمد سليمان تطوير الأعمال في إكسلنس ميديكال كير، ويمتلك أكثر من 25 عاماً من الخبرة في القطاع الصحي تشمل الأجهزة الطبية، والمستهلكات الطبية، وتطوير الأعمال، والوصول إلى الأسواق، والشراكات الاستراتيجية. بنى علاقات راسخة مع أصحاب المصلحة الرئيسيين في القطاع الصحي وقادة الرأي الطبي في أنحاء المملكة العربية السعودية، بما يدعم الوصول الفعّال للسوق، والتواصل السريري، وتبنّي المنتجات لدى شركاء إكسلنس ميديكال كير المصنّعين."
       }
     }
   ],

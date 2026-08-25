@@ -31,6 +31,48 @@
       "ar": "صفّوا حسب المقال، أو دراسة الحالة، أو الورقة البيضاء، أو الأخبار، أو الفعالية، أو ورشة العمل."
     }
   },
+  "partnerWithUs": {
+    "eyebrow": { "en": "For Manufacturers", "ar": "للشركات المصنّعة" },
+    "headline": { "en": "Why Manufacturers Partner With EMC", "ar": "لماذا تختار الشركات المصنّعة الشراكة مع EMC" },
+    "body": {
+      "en": "EMC isn't a box-mover. We're a market developer partner — building the local presence, clinical relationships, and commercial execution international manufacturers need to grow in Saudi Arabia.",
+      "ar": "إكسلنس ميديكال كير ليست مجرد ناقل للصناديق. نحن شريك يبني السوق — من خلال الحضور المحلي، والعلاقات السريرية، والتنفيذ التجاري الذي تحتاجه الشركات المصنّعة العالمية للنمو في السوق السعودي."
+    },
+    "pillars": [
+      {
+        "icon": "MapPin",
+        "title": { "en": "Extensive Market Reach", "ar": "انتشار واسع في السوق" },
+        "body": {
+          "en": "An established healthcare network and field presence across Saudi Arabia to reach new accounts, segments, and geographic opportunities.",
+          "ar": "شبكة رعاية صحية راسخة وحضور ميداني في أنحاء المملكة العربية السعودية للوصول إلى عملاء وقطاعات ومناطق جديدة."
+        }
+      },
+      {
+        "icon": "TrendingUp",
+        "title": { "en": "Strong Local Market Positioning", "ar": "مكانة سوقية محلية قوية" },
+        "body": {
+          "en": "Market intelligence, clinical understanding, and tender/regulatory knowledge combined to differentiate a manufacturer's products and build a competitive position.",
+          "ar": "دمج معرفة السوق والفهم السريري ومعرفة المناقصات والتنظيم لتمييز منتجات الشركة المصنّعة وبناء مكانة تنافسية."
+        }
+      },
+      {
+        "icon": "Users",
+        "title": { "en": "Dedicated Commercial & Technical Capabilities", "ar": "قدرات تجارية وفنية متخصصة" },
+        "body": {
+          "en": "An experienced team providing sales, marketing, clinical support, and tender management — representing a manufacturer's brand with the expertise the market demands.",
+          "ar": "فريق متمرّس يقدّم المبيعات، والتسويق، والدعم السريري، وإدارة المناقصات — لتمثيل علامة الشركة المصنّعة بالخبرة التي يتطلبها السوق."
+        }
+      },
+      {
+        "icon": "Handshake",
+        "title": { "en": "Long-Term Growth-Oriented Partnership", "ar": "شراكة طويلة الأمد قائمة على النمو" },
+        "body": {
+          "en": "We don't just represent products; we build markets and develop businesses, on a foundation of transparency, commitment, and disciplined execution.",
+          "ar": "لا نكتفي بتمثيل المنتجات، بل نبني الأسواق ونطوّر الأعمال، انطلاقاً من الشفافية والالتزام والتنفيذ المنضبط."
+        }
+      }
+    ]
+  },
   "detailPageCta": {
     "headline": {
       "en": "Have a question about this technology?",
