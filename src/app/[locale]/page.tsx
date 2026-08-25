@@ -24,6 +24,20 @@ import { TestimonialsSection } from "@/components/sections/home/testimonials-sec
 import { CtaBand } from "@/components/sections/cta-band";
 import { buildMetadata, buildOrganizationJsonLd, JsonLd, truncateDescription } from "@/lib/seo";
 
+/**
+ * The 4 About-page pillars (of 8) promoted into the homepage Why-EMC teaser.
+ * Chosen deliberately by title rather than `.slice(0, 4)` on the source array,
+ * so "Regulatory Knowledge" (SFDA/MOH procurement — a key trust signal for this
+ * site's Gulf-region institutional-buyer audience) isn't dropped by array-order
+ * accident. Matched against `about.json`'s `whyEmc.pillars[].title.en`.
+ */
+const HOMEPAGE_WHY_EMC_PILLAR_TITLES = [
+  "Training & Education",
+  "Regulatory Knowledge",
+  "Technical Support",
+  "After-Sales Service",
+] as const;
+
 export async function generateMetadata({
   params,
 }: {
@@ -117,11 +131,15 @@ export default async function HomePage({
         eyebrow={l(content.whyEmcTeaser.eyebrow)}
         headline={l(content.whyEmcTeaser.headline)}
         body={l(content.whyEmcTeaser.body)}
-        pillars={aboutContent.whyEmc.pillars.map((pillar) => ({
-          icon: pillar.icon,
-          title: l(pillar.title),
-          body: l(pillar.body),
-        }))}
+        pillars={HOMEPAGE_WHY_EMC_PILLAR_TITLES.map((title) =>
+          aboutContent.whyEmc.pillars.find((pillar) => pillar.title.en === title),
+        )
+          .filter((pillar): pillar is (typeof aboutContent.whyEmc.pillars)[number] => Boolean(pillar))
+          .map((pillar) => ({
+            icon: pillar.icon,
+            title: l(pillar.title),
+            body: l(pillar.body),
+          }))}
       />
 
       <StatsBand stats={verifiedStats} />
