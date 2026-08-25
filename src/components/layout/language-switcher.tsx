@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
       variant="ghost"
       size="sm"
       render={
-        <Link href={pathname} locale={nextLocale} aria-label={t("language")} />
+        <Link href={pathname} locale={nextLocale} />
       }
     >
       <Languages aria-hidden="true" />

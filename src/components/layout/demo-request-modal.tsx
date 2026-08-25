@@ -106,7 +106,7 @@ export function DemoRequestModal({
         </DialogHeader>
 
         {submitted ? (
-          <div className="flex flex-col items-center gap-3 py-6 text-center">
+          <div role="status" aria-live="polite" className="flex flex-col items-center gap-3 py-6 text-center">
             <CheckCircle2 className="size-10 text-emc-teal-600" aria-hidden="true" />
             <p className="font-medium text-foreground">{t("forms.successTitle")}</p>
             <p className="text-sm text-muted-foreground">{t("forms.successBody")}</p>
@@ -118,15 +118,6 @@ export function DemoRequestModal({
             </FormField>
             <FormField label={t("forms.organization")} htmlFor="organization" required error={errors.organization?.message}>
               <Input id="organization" {...register("organization")} />
-            </FormField>
-            <FormField label={t("forms.jobTitle")} htmlFor="jobTitle" required error={errors.jobTitle?.message}>
-              <Input id="jobTitle" {...register("jobTitle")} />
-            </FormField>
-            <FormField label={t("forms.department")} htmlFor="department" required error={errors.department?.message}>
-              <Input id="department" {...register("department")} />
-            </FormField>
-            <FormField label={t("forms.city")} htmlFor="city" required error={errors.city?.message}>
-              <Input id="city" {...register("city")} />
             </FormField>
             <FormField label={t("forms.email")} htmlFor="email" required error={errors.email?.message}>
               <Input id="email" type="email" {...register("email")} />
@@ -187,6 +178,23 @@ export function DemoRequestModal({
             >
               <Textarea id="message" rows={3} {...register("message")} />
             </FormField>
+
+            <details className="sm:col-span-2 group">
+              <summary className="cursor-pointer text-sm font-medium text-emc-teal-700 hover:underline [&::-webkit-details-marker]:hidden">
+                {t("forms.moreDetailsOptional")}
+              </summary>
+              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                <FormField label={t("forms.jobTitle")} htmlFor="jobTitle" error={errors.jobTitle?.message}>
+                  <Input id="jobTitle" {...register("jobTitle")} />
+                </FormField>
+                <FormField label={t("forms.department")} htmlFor="department" error={errors.department?.message}>
+                  <Input id="department" {...register("department")} />
+                </FormField>
+                <FormField label={t("forms.city")} htmlFor="city" error={errors.city?.message}>
+                  <Input id="city" {...register("city")} />
+                </FormField>
+              </div>
+            </details>
 
             {submitError && (
               <p role="alert" className="text-sm text-destructive sm:col-span-2">

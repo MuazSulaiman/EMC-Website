@@ -20,9 +20,9 @@ const optionalUrl = z
 export const demoRequestSchema = z.object({
   fullName: z.string().min(1),
   organization: z.string().min(1),
-  jobTitle: z.string().min(1),
-  department: z.string().min(1),
-  city: z.string().min(1),
+  jobTitle: z.string().optional(),
+  department: z.string().optional(),
+  city: z.string().optional(),
   email: z.string().email(),
   mobile: z.string().min(1),
   productOrSolutionOfInterest: z.string().min(1),
@@ -34,10 +34,10 @@ export type DemoRequestPayload = z.infer<typeof demoRequestSchema>;
 export const quotationRequestSchema = z.object({
   organization: z.string().min(1),
   contactPerson: z.string().min(1),
-  department: z.string().min(1),
+  department: z.string().optional(),
   product: z.string().min(1),
   quantity: z.number().positive(),
-  city: z.string().min(1),
+  city: z.string().optional(),
   procurementType: z.enum(["tender", "direct"]),
   message: z.string().optional(),
 });

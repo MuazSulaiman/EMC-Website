@@ -29,12 +29,18 @@ export function FormField({
   className?: string;
 }) {
   const errorId = `${htmlFor}-error`;
+  const cloneProps: Record<string, unknown> = {};
+  if (required) {
+    cloneProps.required = true;
+    cloneProps["aria-required"] = true;
+  }
+  if (error) {
+    cloneProps["aria-invalid"] = true;
+    cloneProps["aria-describedby"] = errorId;
+  }
   const field =
-    isValidElement(children) && error
-      ? cloneElement(children as React.ReactElement<Record<string, unknown>>, {
-          "aria-invalid": true,
-          "aria-describedby": errorId,
-        })
+    isValidElement(children) && Object.keys(cloneProps).length > 0
+      ? cloneElement(children as React.ReactElement<Record<string, unknown>>, cloneProps)
       : children;
 
   return (

@@ -17,9 +17,9 @@ export async function POST(request: Request) {
   const summary = [
     `Full name: ${data.fullName}`,
     `Organization: ${data.organization}`,
-    `Job title: ${data.jobTitle}`,
-    `Department: ${data.department}`,
-    `City: ${data.city}`,
+    data.jobTitle ? `Job title: ${data.jobTitle}` : null,
+    data.department ? `Department: ${data.department}` : null,
+    data.city ? `City: ${data.city}` : null,
     `Email: ${data.email}`,
     `Mobile: ${data.mobile}`,
     `Product/solution of interest: ${data.productOrSolutionOfInterest}`,

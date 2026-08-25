@@ -137,7 +137,8 @@
       "technical-support": "Technical Support",
       "demo-request": "Demo Request"
     },
-    "submit": "Submit"
+    "submit": "Submit",
+    "moreDetailsOptional": "More details (optional)"
   },
   "common": {
     "backToTop": "Back to top",

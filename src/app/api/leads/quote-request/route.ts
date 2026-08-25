@@ -17,10 +17,10 @@ export async function POST(request: Request) {
   const summary = [
     `Organization: ${data.organization}`,
     `Contact person: ${data.contactPerson}`,
-    `Department: ${data.department}`,
+    data.department ? `Department: ${data.department}` : null,
     `Product: ${data.product}`,
     `Quantity: ${data.quantity}`,
-    `City: ${data.city}`,
+    data.city ? `City: ${data.city}` : null,
     `Procurement type: ${data.procurementType}`,
     data.message ? `Message: ${data.message}` : null,
   ]

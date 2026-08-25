@@ -137,7 +137,8 @@
       "technical-support": "الدعم الفني",
       "demo-request": "طلب عرض توضيحي"
     },
-    "submit": "إرسال"
+    "submit": "إرسال",
+    "moreDetailsOptional": "تفاصيل إضافية (اختياري)"
   },
   "common": {
     "backToTop": "العودة إلى الأعلى",

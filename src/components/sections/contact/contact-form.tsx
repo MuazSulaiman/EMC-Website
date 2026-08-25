@@ -60,7 +60,7 @@ export function ContactForm({
 
   if (submitted) {
     return (
-      <div className="flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-10 text-center">
+      <div role="status" aria-live="polite" className="flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-10 text-center">
         <CheckCircle2 className="size-10 text-emc-teal-600" aria-hidden="true" />
         <p className="font-medium text-foreground">{t("forms.successTitle")}</p>
         <p className="text-sm text-muted-foreground">{t("forms.successBody")}</p>
